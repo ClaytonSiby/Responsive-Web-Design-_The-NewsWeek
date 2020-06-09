@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: none;
+}
+
+@media screen and (min-width: 991px) {
+  nav {
+    align-items: center;
+    color: #fff;
+    display: block;
+  }
+  nav .top_red_nav {
+    background: #f72210;
+  }
+  nav li {
+    padding: 0 0.2rem 0 0;
+  }
+  nav li .nav-link {
+    color: #000;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav li {
+    padding: 0 0.3rem;
+  }
+}
+
+.small_device_nav {
+  display: none !important;
+}
+
+@media screen and (min-width: 991px) {
+  .small_device_nav {
+    display: none !important;
+  }
+}
+
+.subscribe {
+  border-radius: 1rem !important;
+}
+
+.loggin {
+  background-color: #f72210;
+  color: #fff;
+  border: none;
+}
+
+.subscribe {
+  background: yellow;
+}
+/*# sourceMappingURL=main.css.map */
