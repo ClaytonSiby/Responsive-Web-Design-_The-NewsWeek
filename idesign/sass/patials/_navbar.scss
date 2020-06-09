@@ -1,0 +1,17 @@
+nav {
+  height: 60vh;
+  background: $orangered-bg;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  ul {
+     list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+    }
+
+  h2 {
+    color: $primary-color;
+  }
+}

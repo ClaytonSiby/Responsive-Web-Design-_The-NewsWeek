@@ -1,0 +1,15 @@
+nav {
+  height: 60vh;
+  background: orangered;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; }
+  nav h2 {
+    color: blue; }
+
+/*# sourceMappingURL=style.css.map */
