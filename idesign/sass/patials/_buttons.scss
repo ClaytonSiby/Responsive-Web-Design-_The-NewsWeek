@@ -1,0 +1,15 @@
+%btn {
+    border-radius: 1rem !important;
+    font-size: 1.1rem;
+}
+
+.loggin {
+    @extend %btn;
+    background-color: $primary-bg;
+    color: #fff;
+    border: none;
+}
+
+.subscribe {
+    @extend %btn;
+}
