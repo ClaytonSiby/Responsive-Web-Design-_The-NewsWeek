@@ -1,0 +1,48 @@
+.big_nav {
+  display: none !important;
+  background-color: $primary-bg;
+  color: $light;
+  .left_items {
+      line-height: 1;
+  }
+  @media screen and (min-width: 991px) {
+    display: block !important;
+  }
+}
+
+.navbar-light {
+  display: none !important;
+  @media screen and (min-width: 991px) {
+    display: block !important;
+  }
+}
+
+.small_device_nav {
+  background-color: $primary-bg;
+  height: 2.7rem;
+  .logo_img {
+    height: 30%;
+  }
+  .right_nav_items {
+    height: 30%;
+    .contact, .menu {
+        font-size: 1rem;
+        color: $light;
+    }
+    @media screen and (max-width: 767px) {
+        .loggin {
+            display: none !important;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .contact {
+            display: none !important;
+        }
+    }
+  }
+
+  @media screen and (min-width: 991px) {
+    display: none !important;
+  }
+}

@@ -1,14 +1,14 @@
 %btn {
-    border-radius: 1rem !important;
+  border-radius: 1rem !important;
+  background: yellow;
 }
 
 .loggin {
-    background-color: $primary-bg;
-    color: #fff;
-    border: none;
+  background-color: $primary-bg;
+  color: #fff;
+  border: none;
 }
 
 .subscribe {
-    @extend %btn;
-    background: yellow;
+  @extend %btn;
 }
