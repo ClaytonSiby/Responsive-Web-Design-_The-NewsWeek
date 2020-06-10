@@ -1,0 +1,27 @@
+%title {
+  font-size: 1rem !important;
+}
+
+.header_title {
+  @extend %title;
+}
+
+article {
+  position: relative;
+  width: 50%;
+  .article {
+    &-image {
+      width: 100% !important;
+    }
+    &-title {
+      font-family: $art-font;
+      font-size: 1.5rem !important;
+      font-weight: 700;
+    }
+    &-description {
+        font-size: $global-font;
+    }
+  }
+}
+
+

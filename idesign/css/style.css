@@ -1,88 +1,74 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+  font-family: Arial, Helvetica, sans-serif; }
 
 hr {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 .big_nav {
   display: none !important;
   background-color: #f72210;
-  color: #fff;
-}
-
-.big_nav .left_items {
-  line-height: 1;
-}
-
-@media screen and (min-width: 991px) {
-  .big_nav {
-    display: block !important;
-  }
-}
+  color: #fff; }
+  .big_nav .left_items {
+    line-height: 1;
+    font-size: .8rem; }
+  @media screen and (min-width: 991px) {
+    .big_nav {
+      display: block !important; } }
 
 .navbar-light {
-  display: none !important;
-}
-
-@media screen and (min-width: 991px) {
-  .navbar-light {
-    display: block !important;
-  }
-}
+  display: none !important; }
+  @media screen and (min-width: 991px) {
+    .navbar-light {
+      display: block !important; } }
 
 .small_device_nav {
   background-color: #f72210;
-  height: 2.7rem;
-}
-
-.small_device_nav .logo_img {
-  height: 30%;
-}
-
-.small_device_nav .right_nav_items {
-  height: 30%;
-}
-
-.small_device_nav .right_nav_items .contact,
-.small_device_nav .right_nav_items .menu {
-  font-size: 1rem;
-  color: #fff;
-}
-
-@media screen and (max-width: 767px) {
-  .small_device_nav .right_nav_items .loggin {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .small_device_nav .right_nav_items .contact {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 991px) {
-  .small_device_nav {
-    display: none !important;
-  }
-}
+  height: 2.7rem; }
+  .small_device_nav .logo_img {
+    height: 30%; }
+  .small_device_nav .right_nav_items {
+    height: 30%; }
+    .small_device_nav .right_nav_items .contact, .small_device_nav .right_nav_items .menu {
+      font-size: 1rem;
+      color: #fff; }
+    @media screen and (max-width: 767px) {
+      .small_device_nav .right_nav_items .loggin {
+        display: none !important; } }
+    @media screen and (min-width: 768px) {
+      .small_device_nav .right_nav_items .contact {
+        display: none !important; } }
+  @media screen and (min-width: 991px) {
+    .small_device_nav {
+      display: none !important; } }
 
 .subscribe {
   border-radius: 1rem !important;
-  background: yellow;
-}
+  background: #ffe400; }
 
 .loggin {
   background-color: #f72210;
   color: #fff;
-  border: none;
-}
+  border: none; }
+
+.header_title {
+  font-size: 1rem !important; }
+
+article {
+  position: relative;
+  width: 50%; }
+  article .article-image {
+    width: 100% !important; }
+  article .article-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem !important;
+    font-weight: 700; }
+  article .article-description {
+    font-size: 0.99rem; }
+
+/*# sourceMappingURL=style.css.map */
