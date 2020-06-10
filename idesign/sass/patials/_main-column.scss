@@ -19,9 +19,30 @@ article {
       font-weight: 700;
     }
     &-description {
-        font-size: $global-font;
+      font-size: $global-font;
     }
+  }
+
+  h5 {
+    font-weight: 600;
+    font-size: 1rem;
   }
 }
 
+.my_turn {
+  h2 {
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 767px) {
+    display: none !important;
+  }
+}
 
+.more-stories {
+  .more-story-el {
+    .more-story-image {
+      width: 100% !important;
+    }
+  }
+}
