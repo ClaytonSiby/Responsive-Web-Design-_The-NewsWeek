@@ -279,6 +279,7 @@
         </div>
         <div
           class="top_story mt-2 pl-4 col-sm-12 col-md-6 order-0 col-lg-5 order-sm-0 order-md-1"
+          id="top-story"
         >
           <section class="row col-12">
             <header class="section_header">
@@ -655,12 +656,12 @@
             <div class="opinion opinion_wrapper">
               <h2 class="header_title text-muted mt-3 mb-0 p-0">OPINION</h2>
               <div class="opinion_item col-12 px-0 py-2">
-                <div>
+                <div class="opinion-image">
                   <a href="#">
                     <img src="images/racism.webp" alt="governer image" />
                   </a>
                 </div>
-                <div>
+                <div class="opininon-text">
                   <h3>
                     Economists' Silence on Racism Is 100 Years in the Making
                     <br />
@@ -745,119 +746,343 @@
                 </div>
               </div>
             </div>
-            <div class="card col-12 p-0 my-3">
-              <img src="images/liberal.PNG" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h4 class="card-title">
-                  What Sets the Leading Liberal Arts Schools Apart?
-                </h4>
-                <p class="card-text">
-                  There are a number of great Liberal Arts Schools in the USA
-                  today, but what qualities do the best of them have?
-                </p>
-              </div>
-            </div>
-            <div class="sign-up px-4">
-              <form class="p-3">
-                <div class="form-group">
-                  <p>
-                    <img
-                      src="images/small_icon.PNG"
-                      class="img-responsive mr-2 mt-2"
-                      alt="form logo"
-                    />
-                    <span class="form-title"
-                      >START YOUR DAY WITH OUR TOP 5 ARTICLES</span
-                    >
+            <div class="more-on-opinions">
+              <div class="card col-12 p-0 my-3">
+                <img src="images/liberal.PNG" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h4 class="card-title">
+                    What Sets the Leading Liberal Arts Schools Apart?
+                  </h4>
+                  <p class="card-text">
+                    There are a number of great Liberal Arts Schools in the USA
+                    today, but what qualities do the best of them have?
                   </p>
                 </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Email..."
-                  />
+              </div>
+              <div class="sign-up px-4">
+                <form class="p-3">
+                  <div class="form-group">
+                    <p>
+                      <img
+                        src="images/small_icon.PNG"
+                        class="img-responsive mr-2 mt-2"
+                        alt="form logo"
+                      />
+                      <span class="form-title"
+                        >START YOUR DAY WITH OUR TOP 5 ARTICLES</span
+                      >
+                    </p>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Email..."
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-block">
+                    FREE SIGN UP <i class="fas fa-angle-right"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="card col-12 p-0 my-3">
+                <img
+                  src="images/leading_university.PNG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h4 class="card-title">
+                    What Qualities Make a Leading University?
+                  </h4>
+                  <p class="card-text">
+                    A Leading University has to have a track record of producing
+                    well qualified, gifted and employable candidates. Which
+                    schools earn the accolade?
+                  </p>
                 </div>
-                <button type="submit" class="btn btn-block">
-                  FREE SIGN UP <i class="fas fa-angle-right"></i>
-                </button>
-              </form>
-            </div>
-            <div class="card col-12 p-0 my-3">
-              <img
-                src="images/leading_university.PNG"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  What Qualities Make a Leading University?
-                </h4>
-                <p class="card-text">
-                  A Leading University has to have a track record of producing
-                  well qualified, gifted and employable candidates. Which
-                  schools earn the accolade?
-                </p>
               </div>
-            </div>
-            <div class="card col-12 p-0 my-3">
-              <img
-                src="images/special_edition.PNG"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  Newsweek Special Edition: Food as Medicine
-                </h4>
-                <p class="card-text">
-                  Humans have been using natural remedies like spices and herbs
-                  to heal common ailments for centuries. Now food science is
-                  proving many of those traditions true and innovating new ways
-                  to heal our bodies from the inside out. Discover the power of
-                  plant-based nutrition with this Newsweek Special Edition and
-                  start your journey to a healthier you.
-                </p>
+              <div class="card col-12 p-0 my-3">
+                <img
+                  src="images/special_edition.PNG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h4 class="card-title">
+                    Newsweek Special Edition: Food as Medicine
+                  </h4>
+                  <p class="card-text">
+                    Humans have been using natural remedies like spices and
+                    herbs to heal common ailments for centuries. Now food
+                    science is proving many of those traditions true and
+                    innovating new ways to heal our bodies from the inside out.
+                    Discover the power of plant-based nutrition with this
+                    Newsweek Special Edition and start your journey to a
+                    healthier you.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="card col-12 p-0 my-3">
-              <img
-                src="images/infection_prevention.PNG"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  Best Infection Prevention Products
-                </h4>
-                <p class="card-text">
-                  During the coronavirus outbreak, health care is more important
-                  than ever. In Newsweek's first Best Health Care series, we
-                  highlight the best infection prevention products.
-                </p>
+              <div class="card col-12 p-0 my-3">
+                <img
+                  src="images/infection_prevention.PNG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h4 class="card-title">
+                    Best Infection Prevention Products
+                  </h4>
+                  <p class="card-text">
+                    During the coronavirus outbreak, health care is more
+                    important than ever. In Newsweek's first Best Health Care
+                    series, we highlight the best infection prevention products.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="card col-12 p-0 my-3">
-              <img
-                src="images/addition_treatment.PNG"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h4 class="card-title">
-                  Best Addiction Treatment Centers
-                </h4>
-                <p class="card-text">
-                  Newsweek and Statista are partnering to establish a ranking of
-                  Best Addiction Treatment Centers in the United States. If you
-                  work in this field, this survey is for you.
-                </p>
+              <div class="card col-12 p-0 my-3">
+                <img
+                  src="images/addition_treatment.PNG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h4 class="card-title">
+                    Best Addiction Treatment Centers
+                  </h4>
+                  <p class="card-text">
+                    Newsweek and Statista are partnering to establish a ranking
+                    of Best Addiction Treatment Centers in the United States. If
+                    you work in this field, this survey is for you.
+                  </p>
+                </div>
               </div>
             </div>
           </section>
         </div>
       </div>
+      <div class="the-magazine">
+        <section>
+          <header class="the-header text-muted text-center py-3">
+            <img
+              src="images/small_icon.PNG"
+              class="img-responsive mr-2"
+              alt="form logo"
+            />IN THE MAGAZINE
+          </header>
+          <div class="the-features border-top row p-2">
+            <div class="feature-column-one col-12 row">
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/hong_kong.PNG" alt="magazine image" />
+                <p class="more-on-feature m-0 p-1">
+                  <a href="#"
+                    >SEE ALL FEATURES <i class="fas fa-angle-right"></i
+                  ></a>
+                </p>
+              </div>
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/kong_protesters.PNG" alt="magazine image" />
+                <p class="py-0 my-0">
+                  <a class="cover btn btn-sm" type="button">COVER</a> WORLD
+                </p>
+                <h3 class="py-0 my-0">
+                  On Tiananmen Anniversary, Hong Kong Protesters Brace for
+                  Chinese Crackdown
+                </h3>
+              </div>
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/garner_mom.PNG" alt="magazine image" />
+                <p class="py-0 my-0">
+                  <a class="cover btn btn-sm" type="button">PERISCOPE</a>
+                  OPINION
+                </p>
+                <h3 class="py-0 my-0">
+                  I'm Eric Garner's Mom. Four Cops Must Be Convicted in George
+                  Floyd's Death
+                </h3>
+              </div>
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img
+                  src="images/black_owned_business.PNG"
+                  alt="magazine image"
+                />
+                <p class="py-0 my-0">
+                  <a class="cover btn btn-sm" type="button">PERISCOPE</a> MY
+                  TURN
+                </p>
+                <h3 class="py-0 my-0">
+                  'I've Had to Paint 'Black Owned Business' on My Bar During the
+                  Riots'
+                </h3>
+              </div>
+            </div>
+            <div class="feature-column-two col-12 row mt-2">
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img
+                  src="images/blue_lives_matter_activist.PNG"
+                  alt="magazine image"
+                />
+                <p class="py-0 my-0">
+                  <a class="cover btn btn-sm" type="button">PERISCOPE</a>
+                  CULTURE
+                </p>
+                <h3 class="py-0 my-0">
+                  'I'm a Blue Lives Matter Activist, We've Defended Those Now
+                  Breaking Laws'
+                </h3>
+              </div>
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/willie_mays.PNG" alt="magazine image" />
+                <p class="py-0 my-0">
+                  <a class="cover btn btn-sm" type="button">DOWNTIME</a> CULTURE
+                </p>
+                <h3 class="py-0 my-0">
+                  Willie Mays Explains why the All-Star Game Meant so Much to
+                  his Generation
+                </h3>
+              </div>
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/big_head.PNG" alt="magazine image" />
+                <p class="py-0 my-0">
+                  <a class="cover btn btn-sm" type="button">DOWNTIME</a> CULTURE
+                </p>
+                <h3 class="py-0 my-0">
+                  Judd Apatow on Pete Davidson's 'Brave' Work in 'The King of
+                  Staten Island'
+                </h3>
+              </div>
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/rocket_men.PNG" alt="magazine image" />
+                <h3 class="py-0 my-0">
+                  ROCKET MEN
+                </h3>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="editor-pics">
+        <section>
+          <header class="the-header text-muted text-center py-3">
+            <img
+              src="images/small_icon.PNG"
+              class="img-responsive mr-2"
+              alt="form logo"
+            />EDITOR'S PICK
+          </header>
+          <div class="editor-pics-section row border-top pt-3">
+            <div class="editor-column-one row col-12">
+              <div class="editor-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/joe_bidden.PNG" alt="editor's pic img" />
+                <h3 class="editor-title">
+                  Joe Biden Wants to See Studies About Feasibility of Slavery
+                  Reparations
+                </h3>
+                <p class="editor-text">
+                  "If, in fact, there are ways to get direct payments for
+                  reparations, I want to see it," Joe Biden said Thursday
+                </p>
+              </div>
+              <div class="editor-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/jefferson.PNG" alt="editor's pic image" />
+                <h3 class="editor-title">
+                  Photos, Videos Show Jefferson Davis Statue Torn Down in
+                  Richmond, Virginia
+                </h3>
+                <p class="editor-text">
+                  Four statues forming part of a Confederate monument in
+                  Portsmouth, around 80 miles outside Richmond, were also pulled
+                  down.
+                </p>
+              </div>
+              <div class="editor-item col-sm-12 col-md-3 col-lg-3">
+                <img
+                  src="images/tech_and_sciense.PNG"
+                  alt="editor's pic image"
+                />
+                <h3 class="editor-title">
+                  Huawei MateBook X Pro Review: A Stunning Windows Laptop, One
+                  Major Flaw
+                </h3>
+                <p class="editor-text">
+                  The latest flagship Windows 10 laptop from technology giant
+                  Huawei is out now—here's what Newsweek thought of the new 2020
+                  model.
+                </p>
+              </div>
+              <div class="editor-item col-sm-12 col-md-3 col-lg-3">
+                <img
+                  src="images/tech_and_sciense.PNG"
+                  alt="editor's pic image"
+                />
+                <h3 class="editor-title">
+                  MLK's Daughter Calls NASCAR 'Family' After it Bans Confederate
+                  Flag
+                </h3>
+                <p class="editor-text">
+                  Bernice King is the youngest child of the late Martin Luther
+                  King Jr. and Coretta Scott King. She simply called NASCAR
+                  "family" on Wednesday.
+                </p>
+              </div>
+            </div>
+            <div class="editor-column-two row col-12 mt-2">
+              <div class="editor-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/corona_vaccine.PNG" alt="editor's pic image" />
+                <h3 class="editor-title">
+                  Third of Americans Say They Won't Get a COVID-19 Vaccine
+                </h3>
+                <p class="editor-text">
+                  Over 100 potential COVID-19 vaccines are currently under
+                  development.
+                </p>
+              </div>
+              <div class="editor-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/freedom_threat.PNG" alt="editor's pic image" />
+                <h3 class="editor-title">
+                  Exclusive Poll Shows Most in Hong Kong Say Freedoms Threatened
+                </h3>
+                <p class="editor-text">
+                  While 60 percent in Hong Kong believe their level of freedom
+                  is under threat, only 43 percent would join protests against
+                  rising Chinese Communist Party influence and just 28 percent
+                  would risk their life.
+                </p>
+              </div>
+              <div class="editor-item col-sm-12 col-md-3 col-lg-3">
+                <img
+                  src="images/health_insurance.PNG"
+                  alt="editor's pic image"
+                />
+                <h3 class="editor-title">
+                  18 Million Lack Enough Health Insurance, More At Risk to
+                  Coronavirus, Study
+                </h3>
+                <p class="editor-text">
+                  Minorities and low-income individuals are disproportionately
+                  uninsured or underinsured, while simultaneously being
+                  significantly more at risk of developing severe cases of
+                  COVID-19.
+                </p>
+              </div>
+              <div class="editor-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/racist_statues.PNG" alt="editor's pic image" />
+                <h3 class="editor-title">
+                  Nancy Pelosi Wants 'Racist' Confederate Statues Removed From
+                  U.S. Capitol
+                </h3>
+                <p class="editor-text">
+                  "Monuments to men who advocated cruelty and barbarism to
+                  achieve such a plainly racist end are a grotesque affront to
+                  those ideals," House Speaker Nancy Pelosi wrote Wednesday.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
+    <div style="height: 100px;"></div>
     <script src="js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>

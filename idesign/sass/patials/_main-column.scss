@@ -33,6 +33,15 @@ article {
   }
 }
 
+.card {
+  &-title {
+    font-family: $condensed;
+  }
+  &-text {
+    font-size: $global-font;
+  }
+}
+
 .my_turn {
   h2 {
     font-size: 1.2rem;
@@ -58,30 +67,11 @@ article {
   }
 }
 
-
 .the_debate_item {
-  border-top: .2rem solid $primary-bg;
-   display: grid;
-   grid-template-columns: 1fr 4fr;
-   grid-gap: .5rem;
-   a img {
-     width: 100%;
-   }
-   h3 {
-     font-size: 1.1rem;
-     font-family: $condensed;
-     span {
-       font-size: 1rem;
-       font-weight: 100;
-     }
-   }
-}
-
-.the_debate_item_two {
+  border-top: 0.2rem solid $primary-bg;
   display: grid;
-  grid-template-columns: 4fr 1fr;
-  grid-gap: .5rem;
-  border-bottom: .2rem solid $primary-color;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 0.5rem;
   a img {
     width: 100%;
   }
@@ -92,6 +82,34 @@ article {
       font-size: 1rem;
       font-weight: 100;
     }
+  }
+  @media screen and (max-width: 991px) {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-gap: 20px;
+  }
+}
+
+.the_debate_item_two {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 0.5rem;
+  border-bottom: 0.2rem solid $primary-color;
+  a img {
+    width: 100%;
+  }
+  h3 {
+    font-size: 1.1rem;
+    font-family: $condensed;
+    span {
+      font-size: 1rem;
+      font-weight: 100;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-gap: 0;
   }
 }
 
@@ -111,20 +129,25 @@ article {
 }
 
 .opinion_item {
-   display: grid;
-   grid-template-columns: 1fr 4fr;
-   grid-gap: .5rem;
-   a img {
-     width: 100%;
-   }
-   h3 {
-     font-size: 1.1rem;
-     font-family: $condensed;
-     span {
-       font-size: 1rem;
-       font-weight: 100;
-     }
-   }
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 0.5rem;
+  a img {
+    width: 100%;
+  }
+  h3 {
+    font-size: 1.1rem;
+    font-family: $condensed;
+    span {
+      font-size: 1rem;
+      font-weight: 100;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-gap: 20px;
+  }
 }
 
 .sign-up {
@@ -142,5 +165,46 @@ article {
   button {
     background: $primary-bg;
     color: $light;
+  }
+}
+
+.the-magazine {
+  .the-features {
+    .margazine-item {
+      img {
+        width: 100% !important;
+      }
+      .cover {
+        background: $primary-bg;
+        color: $light;
+      }
+      .more-on-feature {
+        background: $body-bg;
+        text-align: center;
+        a {
+          color: $dark;
+          text-decoration: none;
+        }
+      }
+      h3 {
+        font-family: $condensed;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+.editor-pics-section {
+  .editor-item {
+    img {
+      width: 100% !important;
+    }
+    h3 {
+      font-family: $condensed;
+      font-size: 1.1rem;
+    }
+    p {
+      font-size: $global-font;
+    }
   }
 }

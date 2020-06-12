@@ -75,10 +75,15 @@ article {
     font-size: 1.5rem !important;
     font-weight: 700; }
   article .article-description {
-    font-size: 0.99rem; }
+    font-size: 0.8rem; }
   article h5 {
     font-weight: 600;
     font-size: 1rem; }
+
+.card-title {
+  font-family: "Open Sans Condensed", sans-serif; }
+.card-text {
+  font-size: 0.8rem; }
 
 .my_turn h2 {
   font-size: 1.2rem;
@@ -99,7 +104,7 @@ article {
   border-top: 0.2rem solid #f72210;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-gap: .5rem; }
+  grid-gap: 0.5rem; }
   .the_debate_item a img {
     width: 100%; }
   .the_debate_item h3 {
@@ -108,11 +113,16 @@ article {
     .the_debate_item h3 span {
       font-size: 1rem;
       font-weight: 100; }
+  @media screen and (max-width: 991px) {
+    .the_debate_item {
+      display: grid;
+      grid-template-columns: 1fr 7fr;
+      grid-gap: 20px; } }
 
 .the_debate_item_two {
   display: grid;
   grid-template-columns: 4fr 1fr;
-  grid-gap: .5rem;
+  grid-gap: 0.5rem;
   border-bottom: 0.2rem solid blue; }
   .the_debate_item_two a img {
     width: 100%; }
@@ -122,6 +132,11 @@ article {
     .the_debate_item_two h3 span {
       font-size: 1rem;
       font-weight: 100; }
+  @media screen and (max-width: 991px) {
+    .the_debate_item_two {
+      display: grid;
+      grid-template-columns: 6fr 1fr;
+      grid-gap: 0; } }
 
 .double-div {
   position: relative;
@@ -139,7 +154,7 @@ article {
 .opinion_item {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-gap: .5rem; }
+  grid-gap: 0.5rem; }
   .opinion_item a img {
     width: 100%; }
   .opinion_item h3 {
@@ -148,6 +163,11 @@ article {
     .opinion_item h3 span {
       font-size: 1rem;
       font-weight: 100; }
+  @media screen and (max-width: 991px) {
+    .opinion_item {
+      display: grid;
+      grid-template-columns: 1fr 7fr;
+      grid-gap: 20px; } }
 
 .sign-up form {
   background: #e6e6e6; }
@@ -159,5 +179,28 @@ article {
 .sign-up button {
   background: #f72210;
   color: #fff; }
+
+.the-magazine .the-features .margazine-item img {
+  width: 100% !important; }
+.the-magazine .the-features .margazine-item .cover {
+  background: #f72210;
+  color: #fff; }
+.the-magazine .the-features .margazine-item .more-on-feature {
+  background: #e6e6e6;
+  text-align: center; }
+  .the-magazine .the-features .margazine-item .more-on-feature a {
+    color: #000;
+    text-decoration: none; }
+.the-magazine .the-features .margazine-item h3 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.1rem; }
+
+.editor-pics-section .editor-item img {
+  width: 100% !important; }
+.editor-pics-section .editor-item h3 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.1rem; }
+.editor-pics-section .editor-item p {
+  font-size: 0.8rem; }
 
 /*# sourceMappingURL=style.css.map */
