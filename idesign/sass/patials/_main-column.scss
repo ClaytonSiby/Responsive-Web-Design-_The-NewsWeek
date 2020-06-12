@@ -2,6 +2,10 @@
   font-size: 1rem !important;
 }
 
+.main-wrapper {
+  background-color: $light;
+}
+
 .header_title {
   @extend %title;
 }
@@ -44,5 +48,99 @@ article {
     .more-story-image {
       width: 100% !important;
     }
+    .more-story-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    .more-story-text {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+
+.the_debate_item {
+  border-top: .2rem solid $primary-bg;
+   display: grid;
+   grid-template-columns: 1fr 4fr;
+   grid-gap: .5rem;
+   a img {
+     width: 100%;
+   }
+   h3 {
+     font-size: 1.1rem;
+     font-family: $condensed;
+     span {
+       font-size: 1rem;
+       font-weight: 100;
+     }
+   }
+}
+
+.the_debate_item_two {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: .5rem;
+  border-bottom: .2rem solid $primary-color;
+  a img {
+    width: 100%;
+  }
+  h3 {
+    font-size: 1.1rem;
+    font-family: $condensed;
+    span {
+      font-size: 1rem;
+      font-weight: 100;
+    }
+  }
+}
+
+.double-div {
+  position: relative;
+  flex-direction: column !important;
+  .cr-vs {
+    width: 32px;
+    height: 32px;
+    background: $dark;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $light;
+  }
+}
+
+.opinion_item {
+   display: grid;
+   grid-template-columns: 1fr 4fr;
+   grid-gap: .5rem;
+   a img {
+     width: 100%;
+   }
+   h3 {
+     font-size: 1.1rem;
+     font-family: $condensed;
+     span {
+       font-size: 1rem;
+       font-weight: 100;
+     }
+   }
+}
+
+.sign-up {
+  form {
+    background: $body-bg;
+  }
+  img {
+    float: left;
+  }
+  .form-title {
+    font-family: $condensed;
+    font-size: $bigger-text;
+  }
+
+  button {
+    background: $primary-bg;
+    color: $light;
   }
 }

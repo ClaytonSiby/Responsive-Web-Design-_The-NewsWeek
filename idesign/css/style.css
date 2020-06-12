@@ -1,10 +1,13 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap";
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 1rem;
+  background: #e6e6e6; }
 
 hr {
   padding: 0;
@@ -59,6 +62,9 @@ hr {
 .header_title {
   font-size: 1rem !important; }
 
+.main-wrapper {
+  background-color: #fff; }
+
 article {
   position: relative;
   width: 50%; }
@@ -83,5 +89,75 @@ article {
 
 .more-stories .more-story-el .more-story-image {
   width: 100% !important; }
+.more-stories .more-story-el .more-story-title {
+  font-size: 1.2rem;
+  font-weight: 600; }
+.more-stories .more-story-el .more-story-text {
+  font-size: 0.8rem; }
+
+.the_debate_item {
+  border-top: 0.2rem solid #f72210;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: .5rem; }
+  .the_debate_item a img {
+    width: 100%; }
+  .the_debate_item h3 {
+    font-size: 1.1rem;
+    font-family: "Open Sans Condensed", sans-serif; }
+    .the_debate_item h3 span {
+      font-size: 1rem;
+      font-weight: 100; }
+
+.the_debate_item_two {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: .5rem;
+  border-bottom: 0.2rem solid blue; }
+  .the_debate_item_two a img {
+    width: 100%; }
+  .the_debate_item_two h3 {
+    font-size: 1.1rem;
+    font-family: "Open Sans Condensed", sans-serif; }
+    .the_debate_item_two h3 span {
+      font-size: 1rem;
+      font-weight: 100; }
+
+.double-div {
+  position: relative;
+  flex-direction: column !important; }
+  .double-div .cr-vs {
+    width: 32px;
+    height: 32px;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; }
+
+.opinion_item {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: .5rem; }
+  .opinion_item a img {
+    width: 100%; }
+  .opinion_item h3 {
+    font-size: 1.1rem;
+    font-family: "Open Sans Condensed", sans-serif; }
+    .opinion_item h3 span {
+      font-size: 1rem;
+      font-weight: 100; }
+
+.sign-up form {
+  background: #e6e6e6; }
+.sign-up img {
+  float: left; }
+.sign-up .form-title {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.2rem; }
+.sign-up button {
+  background: #f72210;
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

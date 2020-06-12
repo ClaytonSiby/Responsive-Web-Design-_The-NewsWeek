@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <nav class="container-fluid big_nav">
+    <nav class="container-fluid big_nav sticky-top">
       <div
         class="top_red_nav pt-2 px-5 d-flex justify-content-center align-items-center row"
       >
@@ -67,7 +67,10 @@
         </li>
       </ul>
     </nav>
-    <div class="small_device_nav d-flex row py-4 px-3" role="navigation">
+    <div
+      class="small_device_nav d-flex row py-4 px-3 sticky-top"
+      role="navigation"
+    >
       <div
         class="logo_img col-9 d-flex justify-content-start align-items-center"
       >
@@ -89,18 +92,16 @@
       </div>
     </div>
     <hr />
-    <div class="container-fluid main-wrapper mt-3 px-3">
+    <div class="container-fluid main-wrapper pt-2 px-3">
       <div class="row">
         <div
-          class="featured_story col-sm-12 col-md-6 col-lg-3 order-1 order-sm-1 order-md-0"
+          class="featured_story mt-2 col-sm-12 col-md-6 col-lg-3 order-1 order-sm-1 order-md-0"
         >
-          <section
-            class="row d-flex justify-content-center align-items-center p-2"
-          >
-            <header class="section_header col-12">
+          <section class="row col-12">
+            <header class="section_header">
               <h2 class="header_title text-muted">FEATURED STORIES</h2>
             </header>
-            <article class="article-one mt-4 col-12">
+            <article class="article-one mt-4 col-12 p-0">
               <a href="#" class="article-link">
                 <img
                   src="images/resistance.PNG"
@@ -118,7 +119,7 @@
                 FedEx sent to Newsweek on Tuesday.
               </p>
             </article>
-            <article class="article-two mt-4 col-12">
+            <article class="article-two mt-4 col-12 p-0">
               <a href="#" class="article-link">
                 <img
                   src="images/crossfit.PNG"
@@ -135,7 +136,7 @@
                 issue, CrossFit CEO Greg Glassman replied, "It's FLOYD-19."
               </p>
             </article>
-            <article class="article-three mt-4 col-12">
+            <article class="article-three mt-4 col-12 p-0">
               <a href="#" class="article-link">
                 <img
                   src="images/defund.PNG"
@@ -154,7 +155,7 @@
                 support of elected officials.
               </p>
             </article>
-            <article class="article-four mt-4 col-12">
+            <article class="article-four mt-4 col-12 p-0">
               <a href="#" class="article-link">
                 <img
                   src="images/cops.PNG"
@@ -172,7 +173,7 @@
                 us."
               </p>
             </article>
-            <article class="article-five mt-4 col-12">
+            <article class="article-five mt-4 col-12 p-0">
               <a href="#" class="article-link">
                 <img
                   src="images/fbi.PNG"
@@ -277,7 +278,7 @@
           </section>
         </div>
         <div
-          class="top_story mt-2 col-sm-12 col-md-6 order-0 col-lg-6 order-sm-0 order-md-1"
+          class="top_story mt-2 pl-4 col-sm-12 col-md-6 order-0 col-lg-5 order-sm-0 order-md-1"
         >
           <section class="row col-12">
             <header class="section_header">
@@ -390,7 +391,7 @@
               </article>
             </section>
           </section>
-          <section class="my_turn row more-stories col-12 mt-3">
+          <section class="my_turn row more-stories col-12 mt-3 px-4">
             <header class="more-stories-header p-0 m-0">
               <h2 class="text-muted">MORE STORIES</h2>
             </header>
@@ -455,13 +456,404 @@
                 </p>
               </div>
             </div>
+            <div class="more-story-el row mt-2 border-top py-3 px-0">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/buffalo_police.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  Buffalo Police Dispatcher Suspended For Calling Protesters
+                  'Rabid Animals'
+                </h3>
+                <p class="more-story-text">
+                  Buffalo Police Commissioner Byron Lockwood confirmed that the
+                  employee has been suspended and an investigation has been
+                  launched.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3 px-0">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/anti_abortion.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  Anti-Abortion Groups Say COVID-19 Vaccines May Use Cells From
+                  Human Fetuses
+                </h3>
+                <p class="more-story-text">
+                  Organizations have written to the Trump and Trudeau
+                  administrations.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3 px-0">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/voters.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  Georgia Voters Report Machine Problems, Long Lines at Polls
+                  During Primary
+                </h3>
+                <p class="more-story-text">
+                  "Voters are either extremely livid or voters are just leaving
+                  altogether—or both," state Representative Jasmine Clark told
+                  Newsweek.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3 px-0">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/korea.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  U.N. North Korea Expert Urges Security Council to Reconsider
+                  Sanctions
+                </h3>
+                <p class="more-story-text">
+                  The special rapporteur also said there were reports of
+                  families in the country starving as some were eating just two
+                  meals a day.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/majority.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  Majority of Americans Oppose Cuts to Police Department
+                  Funding, Poll Shows
+                </h3>
+                <p class="more-story-text">
+                  As the movement to defund the police grows, legislators on
+                  Capitol Hill are pushing back on the concept.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/prince.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  Prince Andrew Will be Forced to Testify on Jeffrey Epstein,
+                  Experts Say
+                </h3>
+                <p class="more-story-text">
+                  Demands for The Duke of York's testimony on Jeffrey Epstein
+                  will be approved and he can only refuse to answer questions if
+                  it would incriminate him, legal experts tell Newsweek.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/funding_cuts.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  Police Forces Facing Funding Cuts in Wake of George Floyd's
+                  Death
+                </h3>
+                <p class="more-story-text">
+                  Departments across the country have set out plans to
+                  redistribute money that would normally spent on police.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/reforms.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  The Key Reforms in Democrats' Proposed Justice in Policing Act
+                </h3>
+                <p class="more-story-text">
+                  Democrats have put forward a series of measures aimed at
+                  improving law enforcement practices and accountability for
+                  misconduct.
+                </p>
+              </div>
+            </div>
           </section>
         </div>
-        <div class="opinion col-sm-12 col-lg-3 order-2 order-sm-2 order-md-2">
-          <section>
+        <div
+          class="top_story mt-2 col-sm-12 col-md-12 order-2 col-lg-4 order-sm-2 order-md-2"
+        >
+          <section class="row col-12">
             <header class="section_header">
-              <h2 class="header_title">THE DEBATE</h2>
+              <h2 class="header_title text-muted">THE DEBATE</h2>
             </header>
+            <div class="the_debate_item mt-4 pt-3 col-12 px-0">
+              <div>
+                <a href="#">
+                  <img src="images/governer.webp" alt="governer image" />
+                </a>
+              </div>
+              <div>
+                <h3>
+                  Governors Can't Pick and Choose Constitutional Rights <br />
+                  <span class="text-muted">BY</span> EUGENE KONTOROVICH
+                </h3>
+              </div>
+            </div>
+            <div
+              class="double-div my-2 d-flex justify-content-center align-items-center col-12 p-0"
+            >
+              <p class="cr-vs">VS</p>
+            </div>
+            <div class="the_debate_item_two mt-0 pt-3 col-12 px-0 pb-2">
+              <div class="px-0">
+                <h3>
+                  Governors Can't Pick and Choose Constitutional Rights <br />
+                  <span class="text-muted">BY</span> EUGENE KONTOROVICH
+                </h3>
+              </div>
+              <div class="px-0">
+                <a href="#">
+                  <img src="images/goodwin.webp" alt="governer image" />
+                </a>
+              </div>
+            </div>
+            <div class="opinion opinion_wrapper">
+              <h2 class="header_title text-muted mt-3 mb-0 p-0">OPINION</h2>
+              <div class="opinion_item col-12 px-0 py-2">
+                <div>
+                  <a href="#">
+                    <img src="images/racism.webp" alt="governer image" />
+                  </a>
+                </div>
+                <div>
+                  <h3>
+                    Economists' Silence on Racism Is 100 Years in the Making
+                    <br />
+                    <span class="text-muted"
+                      >BY DANIA FRANCIS AND ANNA GIFTY OPOKU-AGYEMAN
+                    </span>
+                  </h3>
+                </div>
+              </div>
+              <div class="opinion_item col-12 px-0 py-3 border-top">
+                <div>
+                  <a href="#">
+                    <img
+                      src="images/corrupt_regime.webp"
+                      alt="governer image"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <h3>
+                    The U.S. and Allies Must Unite Against China's Corrupt
+                    Regime <br />
+                    <span class="text-muted">BY CHEN GUANGCHENG </span>
+                  </h3>
+                </div>
+              </div>
+              <div class="opinion_item col-12 px-0 py-3 border-top">
+                <div>
+                  <a href="#">
+                    <img src="images/democrats.webp" alt="governer image" />
+                  </a>
+                </div>
+                <div>
+                  <h3>
+                    Democrats Reveal Their Partisan Hypocrisy on Biden and
+                    Kavanaugh <br />
+                    <span class="text-muted">BY MIKE DAVIS </span>
+                  </h3>
+                </div>
+              </div>
+              <div class="opinion_item col-12 px-0 py-3 border-top">
+                <div>
+                  <a href="#">
+                    <img src="images/armed_police.webp" alt="governer image" />
+                  </a>
+                </div>
+                <div>
+                  <h3>
+                    The Government Is Arming Police for War. Reform Can Start
+                    Right There <br />
+                    <span class="text-muted"
+                      >BY HANK JOHNSON AND MICHAEL SHANK</span
+                    >
+                  </h3>
+                </div>
+              </div>
+              <div class="opinion_item col-12 px-0 py-3 border-top">
+                <div>
+                  <a href="#">
+                    <img src="images/prosecute.webp" alt="governer image" />
+                  </a>
+                </div>
+                <div>
+                  <h3>
+                    I Prosecuted Police Killings. Defund the Police—But Be
+                    Strategic <br />
+                    <span class="text-muted">BY KRISTEN CLARKE</span>
+                  </h3>
+                </div>
+              </div>
+              <div class="opinion_item col-12 px-0 py-3 border-top">
+                <div>
+                  <a href="#">
+                    <img src="images/annexation.webp" alt="governer image" />
+                  </a>
+                </div>
+                <div>
+                  <h3>
+                    We Should Not Be Surprised by Israeli Annexation <br />
+                    <span class="text-muted">BY AARON DAVID MILLER</span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="card col-12 p-0 my-3">
+              <img src="images/liberal.PNG" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">
+                  What Sets the Leading Liberal Arts Schools Apart?
+                </h4>
+                <p class="card-text">
+                  There are a number of great Liberal Arts Schools in the USA
+                  today, but what qualities do the best of them have?
+                </p>
+              </div>
+            </div>
+            <div class="sign-up px-4">
+              <form class="p-3">
+                <div class="form-group">
+                  <p>
+                    <img
+                      src="images/small_icon.PNG"
+                      class="img-responsive mr-2 mt-2"
+                      alt="form logo"
+                    />
+                    <span class="form-title"
+                      >START YOUR DAY WITH OUR TOP 5 ARTICLES</span
+                    >
+                  </p>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Email..."
+                  />
+                </div>
+                <button type="submit" class="btn btn-block">
+                  FREE SIGN UP <i class="fas fa-angle-right"></i>
+                </button>
+              </form>
+            </div>
+            <div class="card col-12 p-0 my-3">
+              <img
+                src="images/leading_university.PNG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">
+                  What Qualities Make a Leading University?
+                </h4>
+                <p class="card-text">
+                  A Leading University has to have a track record of producing
+                  well qualified, gifted and employable candidates. Which
+                  schools earn the accolade?
+                </p>
+              </div>
+            </div>
+            <div class="card col-12 p-0 my-3">
+              <img
+                src="images/special_edition.PNG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">
+                  Newsweek Special Edition: Food as Medicine
+                </h4>
+                <p class="card-text">
+                  Humans have been using natural remedies like spices and herbs
+                  to heal common ailments for centuries. Now food science is
+                  proving many of those traditions true and innovating new ways
+                  to heal our bodies from the inside out. Discover the power of
+                  plant-based nutrition with this Newsweek Special Edition and
+                  start your journey to a healthier you.
+                </p>
+              </div>
+            </div>
+            <div class="card col-12 p-0 my-3">
+              <img
+                src="images/infection_prevention.PNG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">
+                  Best Infection Prevention Products
+                </h4>
+                <p class="card-text">
+                  During the coronavirus outbreak, health care is more important
+                  than ever. In Newsweek's first Best Health Care series, we
+                  highlight the best infection prevention products.
+                </p>
+              </div>
+            </div>
+            <div class="card col-12 p-0 my-3">
+              <img
+                src="images/addition_treatment.PNG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">
+                  Best Addiction Treatment Centers
+                </h4>
+                <p class="card-text">
+                  Newsweek and Statista are partnering to establish a ranking of
+                  Best Addiction Treatment Centers in the United States. If you
+                  work in this field, this survey is for you.
+                </p>
+              </div>
+            </div>
           </section>
         </div>
       </div>
