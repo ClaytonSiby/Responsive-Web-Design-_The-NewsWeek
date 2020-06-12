@@ -67,6 +67,24 @@ article {
   }
 }
 
+.sign-up {
+  form {
+    background: $body-bg;
+  }
+  img {
+    float: left;
+  }
+  .form-title {
+    font-family: $condensed;
+    font-size: $bigger-text;
+  }
+
+  button {
+    background: $primary-bg;
+    color: $light;
+  }
+}
+
 .the_debate_item {
   border-top: 0.2rem solid $primary-bg;
   display: grid;
@@ -150,23 +168,21 @@ article {
   }
 }
 
-.sign-up {
-  form {
-    background: $body-bg;
-  }
-  img {
-    float: left;
-  }
-  .form-title {
-    font-family: $condensed;
-    font-size: $bigger-text;
-  }
-
-  button {
-    background: $primary-bg;
-    color: $light;
+.editor-pics-section {
+  .editor-item {
+    img {
+      width: 100% !important;
+    }
+    h3 {
+      font-family: $condensed;
+      font-size: 1.1rem;
+    }
+    p {
+      font-size: $global-font;
+    }
   }
 }
+
 
 .the-magazine {
   .the-features {
@@ -190,21 +206,6 @@ article {
         font-family: $condensed;
         font-size: 1.1rem;
       }
-    }
-  }
-}
-
-.editor-pics-section {
-  .editor-item {
-    img {
-      width: 100% !important;
-    }
-    h3 {
-      font-family: $condensed;
-      font-size: 1.1rem;
-    }
-    p {
-      font-size: $global-font;
     }
   }
 }
