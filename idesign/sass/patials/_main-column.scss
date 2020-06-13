@@ -183,6 +183,27 @@ article {
   }
 }
 
+.more-article-news {
+  .more-news-section-title {
+    color: $primary-bg;
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+  .more-news-image {
+    width: 100% !important;
+  }
+  .more-article-news-title {
+    font-family: $condensed;
+    font-size: 1.1rem;
+    a {
+      color: $dark;
+      &:hover {
+        color: $primary-bg;
+      }
+    }
+  }
+}
+
 .the-magazine {
   .the-features {
     .margazine-item {
@@ -209,23 +230,4 @@ article {
   }
 }
 
-.more-article-news {
-  .more-news-section-title {
-    color: $primary-bg;
-    font-weight: 600;
-    font-size: 1.4rem;
-  }
-  .more-news-image {
-    width: 100% !important;
-  }
-  .more-article-news-title {
-    font-family: $condensed;
-    font-size: 1.1rem;
-    a {
-      color: $dark;
-      &:hover {
-        color: $primary-bg;
-      }
-    }
-  }
-}
+
