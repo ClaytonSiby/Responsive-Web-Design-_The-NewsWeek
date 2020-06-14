@@ -6,6 +6,18 @@
   background-color: $light;
 }
 
+.bg-light {
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        @media screen and (min-width: 1210px) {
+          padding: 0 1.3rem;
+        }
+      }
+    }
+  }
+}
+
 .header_title {
   @extend %title;
 }
