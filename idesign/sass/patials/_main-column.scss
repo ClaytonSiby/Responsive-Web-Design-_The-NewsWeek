@@ -297,6 +297,10 @@ footer {
         padding-top: 1.3rem;
         font-size: $global-font;
       }
+      @media screen and (max-width: 991px) {
+        display: flex;
+        flex-direction: column;
+      }
     }
     .right-top-footer-items {
       .social-icon {
@@ -312,7 +316,7 @@ footer {
   .bottom-footer {
     .top {
       .list-title {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 600 !important;
       }
     }

@@ -11,6 +11,13 @@ body {
 }
 
 hr {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.anchor-style {
+  color: $dark;
+  &:hover {
+    color: $primary-bg;
+  }
 }

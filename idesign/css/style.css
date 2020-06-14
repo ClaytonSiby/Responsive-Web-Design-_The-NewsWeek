@@ -13,6 +13,11 @@ hr {
   padding: 0;
   margin: 0; }
 
+.anchor-style {
+  color: #000; }
+  .anchor-style:hover {
+    color: #f72210; }
+
 .big_nav {
   display: none !important;
   background-color: #f72210;
@@ -254,6 +259,10 @@ article {
 footer .top-footer .left-top-footer-items .copywright {
   padding-top: 1.3rem;
   font-size: 0.9rem; }
+@media screen and (max-width: 991px) {
+  footer .top-footer .left-top-footer-items {
+    display: flex;
+    flex-direction: column; } }
 footer .top-footer .right-top-footer-items .social-icon {
   font-size: 1.3rem; }
 @media screen and (max-width: 991px) {
@@ -262,7 +271,7 @@ footer .top-footer .right-top-footer-items .social-icon {
     justify-content: flex-start !important;
     padding-bottom: 0.7rem; } }
 footer .bottom-footer .top .list-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600 !important; }
 footer .bottom-footer .footer-link {
   text-decoration: none;
