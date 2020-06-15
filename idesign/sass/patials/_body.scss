@@ -19,5 +19,6 @@ hr {
   color: $dark;
   &:hover {
     color: $primary-bg;
+    text-decoration: none;
   }
 }

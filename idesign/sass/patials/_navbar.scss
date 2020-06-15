@@ -16,6 +16,17 @@
   @media screen and (min-width: 991px) {
     display: block !important;
   }
+
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-weight: 600;
+        @media screen and (min-width: 1210px) {
+          padding: 0 1.3rem;
+        }
+      }
+    }
+  }
 }
 
 .small_device_nav {
