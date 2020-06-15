@@ -5,7 +5,7 @@
 
 * large/desktop screen view*
 
-![screenshot](idesign/images/original_screenshot.png) 
+![screenshot](idesign/images/original_screenshot.PNG) 
 
 This project was designed using bootstrap 4 classes for component layouts. I also implemented the bootstrap 4 grid system to responsively position content on the page on all screen sizes. Sass CSS acted as an alternative way to add more style on the elements & beauty on the site.
 
