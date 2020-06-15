@@ -1,19 +1,11 @@
 # Responsive-Web-Design-_The-NewsWeek
-**This project is a replicate of the [NewsWeek](https://www.newsweek.com/) website. It is a part of the microverse curriculum mainly focusing on mobile first responsive design.**
+**This project is a replica of the [NewsWeek](https://www.newsweek.com/) website. It is a part of the microverse curriculum mainly focusing on mobile first responsive design.**
 
 ## Project Design:
 
 * large/desktop screen view*
 
-![screenshot](idesign/images/page_screenshot.png) 
-
-* medium/tablet screen view*
-
-![screenshot](idesign/images/mid_view_screenshot.png) 
-
-* mobile screen view*
-
-![screenshot](idesign/images/mobile_screenshot.png)
+![screenshot](idesign/images/original_screenshot.png) 
 
 This project was designed using bootstrap 4 classes for component layouts. I also implemented the bootstrap 4 grid system to responsively position content on the page on all screen sizes. Sass CSS acted as an alternative way to add more style on the elements & beauty on the site.
 
@@ -31,7 +23,7 @@ Please take note, this project has no functionality to it. It was designed as a 
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/ClaytonSiby/Responsive-Web-Design-_The-NewsWeek/NewsWeek-Homepage/idesign/index.html)
 
 ## Author
 
