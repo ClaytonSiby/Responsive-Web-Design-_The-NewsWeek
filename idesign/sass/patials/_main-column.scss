@@ -29,14 +29,12 @@ article {
     &-description {
       font-size: $global-font;
     }
-
   }
 
   h5 {
     font-weight: 600;
     font-size: 1rem;
   }
-
 }
 
 .card {
@@ -52,7 +50,6 @@ article {
 }
 
 .my_turn {
-
   h2 {
     font-size: 1.2rem;
     text-decoration: none;
@@ -61,13 +58,10 @@ article {
   @media screen and (max-width: 767px) {
     display: none !important;
   }
-
 }
 
 .more-stories {
-
   .more-story-el {
-
     .more-story-image {
       width: 100% !important;
     }
@@ -102,7 +96,6 @@ article {
     background: $primary-bg;
     color: $light;
   }
-
 }
 
 .the_debate_item {
@@ -123,7 +116,6 @@ article {
       font-size: 1rem;
       font-weight: 100;
     }
-
   }
 
   @media screen and (max-width: 991px) {
@@ -131,7 +123,6 @@ article {
     grid-template-columns: 1fr 7fr;
     grid-gap: 20px;
   }
-
 }
 
 .the_debate_item_two {
@@ -152,7 +143,6 @@ article {
       font-size: 1rem;
       font-weight: 100;
     }
-
   }
 
   @media screen and (max-width: 991px) {
@@ -160,7 +150,6 @@ article {
     grid-template-columns: 6fr 1fr;
     grid-gap: 0;
   }
-
 }
 
 .double-div {
@@ -177,7 +166,6 @@ article {
     align-items: center;
     color: $light;
   }
-
 }
 
 .opinion_item {
@@ -197,7 +185,6 @@ article {
       font-size: 1rem;
       font-weight: 100;
     }
-
   }
 
   @media screen and (max-width: 991px) {
@@ -205,11 +192,9 @@ article {
     grid-template-columns: 1fr 7fr;
     grid-gap: 20px;
   }
-
 }
 
 .editor-pics-section {
-
   .editor-item {
 
     img {
@@ -224,13 +209,10 @@ article {
     p {
       font-size: $global-font;
     }
-
   }
-
 }
 
 .more-article-news {
-
   .more-news-section-title {
     color: $primary-bg;
     font-weight: 600;
@@ -251,17 +233,12 @@ article {
       &:hover {
         color: $primary-bg;
       }
-
     }
-
   }
-
 }
 
 .the-magazine {
-
   .the-features {
-    
     .margazine-item {
 
       img {
@@ -281,24 +258,18 @@ article {
           color: $dark;
           text-decoration: none;
         }
-
       }
 
       h3 {
         font-family: $condensed;
         font-size: 1.1rem;
       }
-
     }
-
   }
-
 }
 
 .subscribe_newsletter {
-
-  .subscribe_to_newsletter {
-    
+  .subscribe_to_newsletter { 
     .subscribe-image-div {
       position: relative;
 
@@ -322,29 +293,24 @@ article {
       color: $light;
       background: $primary-bg;
     }
-
   }
 
   .section-header {
-
     .subscribe-newsletter-title,
     .newsletter-title {
       font-size: 1.4rem;
       color: $primary-bg;
       font-weight: 600;
     }
-
   }
 
   .newsletter {
-
     .newsletter-image {
       width: 100% !important;
       height: 100% !important;
     }
 
     .my-border {
-
       h3 {
         font-size: 1.1rem;
         font-family: $condensed;
@@ -357,7 +323,6 @@ article {
     }
 
     @media screen and (max-width: 767px) {
-
       .newsletter-image {
         display: none;
       }
@@ -365,19 +330,13 @@ article {
       .my-border {
         border-left: 1px solid $body-bg;
       }
-
     }
-
   }
-
 }
 
 footer {
-
   .top-footer {
-
     .left-top-footer-items {
-
       .copywright {
         padding-top: 1.3rem;
         font-size: $global-font;
@@ -387,7 +346,6 @@ footer {
         display: flex;
         flex-direction: column;
       }
-
     }
 
     .right-top-footer-items {
@@ -401,19 +359,15 @@ footer {
         justify-content: flex-start !important;
         padding-bottom: 0.7rem;
       }
-
     }
-
   }
   .bottom-footer {
-
+  
     .top {
-
       .list-title {
         font-size: 1rem;
         font-weight: 600 !important;
       }
-
     }
 
     .footer-link {
@@ -422,7 +376,5 @@ footer {
       border-right: 1px solid gray;
       font-size: $global-font;
     }
-
   }
-  
 }
