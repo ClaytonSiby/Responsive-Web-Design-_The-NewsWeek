@@ -14,14 +14,17 @@ article {
   position: relative;
   width: 50%;
   .article {
+
     &-image {
       width: 100% !important;
     }
+
     &-title {
       font-family: $art-font;
       font-size: 1.5rem !important;
       font-weight: 700;
     }
+
     &-description {
       font-size: $global-font;
     }
@@ -34,19 +37,23 @@ article {
 }
 
 .card {
+
   &-title {
     font-family: $condensed;
   }
+
   &-text {
     font-size: $global-font;
   }
 }
 
 .my_turn {
+
   h2 {
     font-size: 1.2rem;
     text-decoration: none;
   }
+
   @media screen and (max-width: 767px) {
     display: none !important;
   }
@@ -90,9 +97,11 @@ article {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-gap: 0.5rem;
+
   a img {
     width: 100%;
   }
+
   h3 {
     font-size: 1.1rem;
     font-family: $condensed;
@@ -101,6 +110,7 @@ article {
       font-weight: 100;
     }
   }
+
   @media screen and (max-width: 991px) {
     display: grid;
     grid-template-columns: 1fr 7fr;
@@ -113,17 +123,21 @@ article {
   grid-template-columns: 4fr 1fr;
   grid-gap: 0.5rem;
   border-bottom: 0.2rem solid $primary-color;
+
   a img {
     width: 100%;
   }
+  
   h3 {
     font-size: 1.1rem;
     font-family: $condensed;
+
     span {
       font-size: 1rem;
       font-weight: 100;
     }
   }
+
   @media screen and (max-width: 991px) {
     display: grid;
     grid-template-columns: 6fr 1fr;
@@ -134,6 +148,7 @@ article {
 .double-div {
   position: relative;
   flex-direction: column !important;
+
   .cr-vs {
     width: 32px;
     height: 32px;
@@ -150,17 +165,21 @@ article {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-gap: 0.5rem;
+
   a img {
     width: 100%;
   }
+
   h3 {
     font-size: 1.1rem;
     font-family: $condensed;
+
     span {
       font-size: 1rem;
       font-weight: 100;
     }
   }
+
   @media screen and (max-width: 991px) {
     display: grid;
     grid-template-columns: 1fr 7fr;
@@ -170,13 +189,16 @@ article {
 
 .editor-pics-section {
   .editor-item {
+
     img {
       width: 100% !important;
     }
+
     h3 {
       font-family: $condensed;
       font-size: 1.1rem;
     }
+
     p {
       font-size: $global-font;
     }
@@ -184,19 +206,24 @@ article {
 }
 
 .more-article-news {
+
   .more-news-section-title {
     color: $primary-bg;
     font-weight: 600;
     font-size: 1.4rem;
   }
+
   .more-news-image {
     width: 100% !important;
   }
+
   .more-article-news-title {
     font-family: $condensed;
     font-size: 1.1rem;
+
     a {
       color: $dark;
+
       &:hover {
         color: $primary-bg;
       }
@@ -205,23 +232,30 @@ article {
 }
 
 .the-magazine {
+
   .the-features {
+    
     .margazine-item {
+
       img {
         width: 100% !important;
       }
+
       .cover {
         background: $primary-bg;
         color: $light;
       }
+
       .more-on-feature {
         background: $body-bg;
         text-align: center;
+
         a {
           color: $dark;
           text-decoration: none;
         }
       }
+
       h3 {
         font-family: $condensed;
         font-size: 1.1rem;
@@ -231,15 +265,19 @@ article {
 }
 
 .subscribe_newsletter {
+
   .subscribe_to_newsletter {
+    
     .subscribe-image-div {
       position: relative;
+
       .abs-image {
         position: absolute;
         left: 3.8rem;
         top: 1.5rem;
       }
     }
+
     .subscribe-title {
       font-size: 1.4rem;
       font-family: $condensed;
@@ -248,12 +286,14 @@ article {
     .subscribe-text {
       font-size: $global-font;
     }
+
     button {
       color: $light;
       background: $primary-bg;
     }
   }
   .section-header {
+
     .subscribe-newsletter-title,
     .newsletter-title {
       font-size: 1.4rem;
@@ -263,16 +303,19 @@ article {
   }
 
   .newsletter {
+
     .newsletter-image {
       width: 100% !important;
       height: 100% !important;
     }
 
     .my-border {
+
       h3 {
         font-size: 1.1rem;
         font-family: $condensed;
       }
+
       button {
         background: $primary-bg;
         color: $light;
@@ -280,9 +323,11 @@ article {
     }
 
     @media screen and (max-width: 767px) {
+
       .newsletter-image {
         display: none;
       }
+
       .my-border {
         border-left: 1px solid $body-bg;
       }
@@ -291,21 +336,28 @@ article {
 }
 
 footer {
+
   .top-footer {
+
     .left-top-footer-items {
+
       .copywright {
         padding-top: 1.3rem;
         font-size: $global-font;
       }
+
       @media screen and (max-width: 991px) {
         display: flex;
         flex-direction: column;
       }
     }
+
     .right-top-footer-items {
+
       .social-icon {
         font-size: 1.3rem;
       }
+
       @media screen and (max-width: 991px) {
         display: flex;
         justify-content: flex-start !important;
@@ -320,6 +372,7 @@ footer {
         font-weight: 600 !important;
       }
     }
+    
     .footer-link {
       text-decoration: none;
       padding: 0 0.7rem 0 0.5rem;
