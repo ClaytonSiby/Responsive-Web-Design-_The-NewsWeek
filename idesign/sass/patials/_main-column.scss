@@ -15,7 +15,6 @@ article {
   width: 50%;
 
   .article {
-
     &-image {
       width: 100% !important;
     }
@@ -38,7 +37,6 @@ article {
 }
 
 .card {
-
   &-title {
     font-family: $condensed;
   }
@@ -46,7 +44,6 @@ article {
   &-text {
     font-size: $global-font;
   }
-
 }
 
 .my_turn {
@@ -78,7 +75,6 @@ article {
 }
 
 .sign-up {
-
   form {
     background: $body-bg;
   }
@@ -134,7 +130,7 @@ article {
   a img {
     width: 100%;
   }
-  
+
   h3 {
     font-size: 1.1rem;
     font-family: $condensed;
@@ -196,7 +192,6 @@ article {
 
 .editor-pics-section {
   .editor-item {
-
     img {
       width: 100% !important;
     }
@@ -240,7 +235,6 @@ article {
 .the-magazine {
   .the-features {
     .margazine-item {
-
       img {
         width: 100% !important;
       }
@@ -269,7 +263,7 @@ article {
 }
 
 .subscribe_newsletter {
-  .subscribe_to_newsletter { 
+  .subscribe_to_newsletter {
     .subscribe-image-div {
       position: relative;
 
@@ -349,7 +343,6 @@ footer {
     }
 
     .right-top-footer-items {
-
       .social-icon {
         font-size: 1.3rem;
       }
@@ -362,7 +355,6 @@ footer {
     }
   }
   .bottom-footer {
-  
     .top {
       .list-title {
         font-size: 1rem;
