@@ -34,7 +34,7 @@ Please take note, this project has no functionality to it. It was designed as a 
 - Linkedin: [linkedin](https://www.linkedin.com/in/clayton-siby-48a8a0183/)
 
 
-## 🤝 Contributing
+# 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
@@ -52,6 +52,6 @@ Give a ⭐️ if you like this project!
 - W3Schools.com
 - getbootstrap.com
 
-## 📝 License
+# 📝 License
 
 This project is [MIT](github.com/ClaytonSiby) licensed.
