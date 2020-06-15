@@ -2,10 +2,12 @@
   display: none !important;
   background-color: $primary-bg;
   color: $light;
+  
   .left_items {
-      line-height: 1;
-      font-size: .8rem;
+    line-height: 1;
+    font-size: 0.8rem;
   }
+
   @media screen and (min-width: 991px) {
     display: block !important;
   }
@@ -13,6 +15,7 @@
 
 .navbar-light {
   display: none !important;
+
   @media screen and (min-width: 991px) {
     display: block !important;
   }
@@ -21,6 +24,7 @@
     .nav-item {
       .nav-link {
         font-weight: 600;
+
         @media screen and (min-width: 1210px) {
           padding: 0 1.3rem;
         }
@@ -32,25 +36,29 @@
 .small_device_nav {
   background-color: $primary-bg;
   height: 2.7rem;
+
   .logo_img {
     height: 30%;
   }
+
   .right_nav_items {
     height: 30%;
-    .contact, .menu {
-        font-size: 1rem;
-        color: $light;
+    .contact,
+    .menu {
+      font-size: 1rem;
+      color: $light;
     }
+
     @media screen and (max-width: 767px) {
-        .loggin {
-            display: none !important;
-        }
+      .loggin {
+        display: none !important;
+      }
     }
 
     @media screen and (min-width: 768px) {
-        .contact {
-            display: none !important;
-        }
+      .contact {
+        display: none !important;
+      }
     }
   }
 
