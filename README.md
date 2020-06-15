@@ -3,15 +3,31 @@
 
 ## Project Design:
 
-![screenshot](./app_screenshot.png)
+* large/desktop screen view*
 
-This project I designed it using bootstrap 4 classes for component layouts. I also implemented the bootstrap 4 grid system to responsively position content on the page on all screen sizes. Sass CSS acted as an alternative way to add more style on the elements & beauty on the site.
+![screenshot](idesign/images/page_screenshot.png) 
+
+* medium/tablet screen view*
+
+![screenshot](idesign/images/mid_view_screenshot.png) 
+
+* mobile screen view*
+
+![screenshot](idesign/images/mobile_screenshot.png)
+
+This project was designed using bootstrap 4 classes for component layouts. I also implemented the bootstrap 4 grid system to responsively position content on the page on all screen sizes. Sass CSS acted as an alternative way to add more style on the elements & beauty on the site.
+
+Please take note, this project has no functionality to it. It was designed as a means of strengthening mobile first design skills. And also, it is a microverse.inc mandatory project.
 
 ## Built With
 
 - CSS, HTML, JavaScript
 - Sass CSS, Bootstrap 4
 - Stylelint validators
+
+## Tools Used:
+
+- Visual Studio Code
 
 ## Live Demo
 
