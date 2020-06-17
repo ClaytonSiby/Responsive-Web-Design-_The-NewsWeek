@@ -1,0 +1,1767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon.ico" />
+    <title>NewsWeek</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="container-fluid big_nav sticky-top">
+      <div
+        class="top_red_nav pt-2 px-5 d-flex justify-content-center align-items-center row"
+      >
+        <div class="left_items col-3">
+          <p>
+            <img src="images/weather.PNG" alt="weather_icon" /> 13&deg;
+            Centurion, ZA&nbsp; <i class="fas fa-angle-right"></i>
+          </p>
+          <p id="date"></p>
+        </div>
+        <div
+          class="col-6 middle_items d-flex justify-content-center align-items-center"
+        >
+          <img src="images/news_week_logo.PNG" alt="main_nav_logo" />
+        </div>
+        <div
+          class="col-3 right_items d-flex justify-content-end align-items-center"
+        >
+          <button class="btn btn-sm btn-primary mr-2 loggin">LOGIN</button>
+          <button class="btn btn-sm btn-warning subscribe">
+            SUBSCRIBE <i class="fas fa-angle-right"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <nav
+      class="navbar container-fluid navbar-expand-md bg-light navbar-light d-flex justify-content-center align-items-center"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">U.S</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">WORLD</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">BUSINESS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">CULTURE</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Newsgeek</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">The Debate</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Vantage</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Weather</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"
+            >Search&nbsp; <i class="fas fa-search"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      class="small_device_nav d-flex row py-4 px-3 sticky-top"
+      role="navigation"
+    >
+      <div
+        class="logo_img col-9 d-flex justify-content-start align-items-center"
+      >
+        <img src="images/sm_nav_logo.PNG" alt="small nav logo image." />
+      </div>
+      <div
+        class="right_nav_items col-3 d-flex justify-content-end align-items-center"
+      >
+        <button type="button" class="btn btn-sm contact mr-2">
+          <i class="far fa-user"></i>
+        </button>
+        <button type="button" class="btn btn-sm loggin mr-2">LOGIN</button>
+        <button type="button" class="btn btn-sm subscribe mr-2">
+          SUBSCRIBE
+        </button>
+        <button type="button" class="btn btn-sm menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="container-fluid main-wrapper pt-2 px-3 border-top">
+      <div class="row">
+        <div
+          class="featured_story mt-2 col-sm-12 col-md-5 col-lg-3 order-1 order-sm-1 order-md-0"
+        >
+          <section class="row col-12">
+            <header class="section_header">
+              <h2 class="header_title text-muted">FEATURED STORIES</h2>
+            </header>
+            <article class="article-one mt-4 col-12 p-0">
+              <a href="#" class="article-link">
+                <img
+                  src="images/resistance.PNG"
+                  alt="resistant protesters"
+                  class="img-fluid img-responsive article-image"
+                />
+              </a>
+              <h3 class="article-title w-100 mt-2">
+                <a href="#" class="anchor-style">
+                  FedEx Fires Employee Who Mocked George Floyd's Death in Front
+                  of Trump Yard Signs
+                </a>
+              </h3>
+              <p class="article-description w-100">
+                "The behavior depicted in the video, which involved a FedEx
+                employee, is appalling and offensive," read a statement from
+                FedEx sent to Newsweek on Tuesday.
+              </p>
+            </article>
+            <article class="article-two mt-4 col-12 p-0">
+              <a href="#" class="article-link">
+                <img
+                  src="images/crossfit.PNG"
+                  alt="crossfit image"
+                  class="img-fluid img-responsive article-image"
+                />
+              </a>
+              <h3 class="article-title w-100 mt-2">
+                <a href="#" class="anchor-style">
+                  CrossFit CEO Steps Down After Tweet Mocking Death of George
+                  Floyd
+                </a>
+              </h3>
+              <p class="article-description w-100">
+                In response to a tweet referring to racism as a public health
+                issue, CrossFit CEO Greg Glassman replied, "It's FLOYD-19."
+              </p>
+            </article>
+            <article class="article-three mt-4 col-12 p-0">
+              <a href="#" class="article-link">
+                <img
+                  src="images/defund.PNG"
+                  alt="defund image"
+                  class="img-fluid img-responsive article-image"
+                />
+              </a>
+              <h3 class="article-title w-100 mt-2">
+                <a href="#" class="anchor-style">
+                  'Abolish ICE' May Have Faded, But 'Defund the Police' is Here
+                  to Stay
+                </a>
+              </h3>
+              <p class="article-description w-100">
+                After Democratic leaders rejected calls to weigh in on the
+                growing calls to defund the police, activists said the idea
+                predates the moment and will continue with or without the
+                support of elected officials.
+              </p>
+            </article>
+            <article class="article-four mt-4 col-12 p-0">
+              <a href="#" class="article-link">
+                <img
+                  src="images/cops.PNG"
+                  alt="cops image"
+                  class="img-fluid img-responsive article-image"
+                />
+              </a>
+              <h3 class="article-title w-100 mt-2">
+                <a href="#" class="anchor-style">
+                  NY Police Union President Says Media Treats Cops Like 'Animals
+                  and Thugs'
+                </a>
+              </h3>
+              <p class="article-description w-100">
+                "Our legislators abandoned us," New York Police Benevolent Fund
+                President Mike O'Meara said Tuesday. "The press is vilifying
+                us."
+              </p>
+            </article>
+            <article class="article-five mt-4 col-12 p-0">
+              <a href="#" class="article-link">
+                <img
+                  src="images/fbi.PNG"
+                  alt="fbi image"
+                  class="img-fluid img-responsive article-image"
+                />
+              </a>
+              <h3 class="article-title w-100 mt-2">
+                <a href="#" class="anchor-style">
+                  States Quietly Teamed Up With the FBI to Stop Violence at
+                  Floyd Protests
+                </a>
+              </h3>
+              <p class="article-description w-100">
+                The FBI and DOJ aided local law enforcement during anti-police
+                brutality protest crackdowns—part of a federal effort to keep
+                protests civil.
+              </p>
+            </article>
+            <div class="card featured-card col-12 p-0 mb-3">
+              <img src="images/insight.PNG" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#" class="anchor-style">
+                    Looking for a Powerful, Lightweight and Long-lasting
+                    Cordless Vacuum?
+                  </a>
+                </h4>
+                <p class="card-text">
+                  Roborock H6, 2020 Red Dot Award Winner, Ultra-Long lasting
+                  LiPo battery, available now on Amazon.
+                </p>
+              </div>
+            </div>
+            <div class="card featured-card col-12 p-0 mb-3">
+              <img
+                src="images/insight_img.PNG"
+                class="card-img-top"
+                alt="teaching lady"
+              />
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#" class="anchor-style">
+                    Want to Learn to Code Online?</a
+                  >
+                </h4>
+                <p class="card-text">
+                  If you are thinking about changing career or you have recently
+                  lost your job, this might be the time to think about a career
+                  in coding.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div
+          class="top_story mt-2 pl-4 col-sm-12 col-md-7 order-0 col-lg-5 order-sm-0 order-md-1"
+          id="top-story"
+        >
+          <section class="row col-12">
+            <header class="section_header">
+              <h2 class="header_title text-muted">TOP STORY</h2>
+            </header>
+            <article class="article-one mt-4 col-12 p-0">
+              <a href="#" class="article-link">
+                <img
+                  src="images/justice_protesters.PNG"
+                  alt="resistant protesters"
+                  class="img-fluid img-responsive article-image"
+                />
+              </a>
+              <h3 class="article-title w-100 mt-2">
+                <a href="#" class="anchor-style">
+                  New York State Legislature Passes Bill to Reform Police
+                  Privacy Law
+                </a>
+              </h3>
+              <p class="article-description w-100">
+                As demonstrations take place across the United States to protest
+                police violence, state lawmakers in New York moved to reform a
+                privacy statute that keeps law enforcement records confidential.
+              </p>
+            </article>
+            <section class="my_turn row p-2 d-flex">
+              <header class="col-sm-12 col-md-12 col-lg-12 p-0 m-0">
+                <h2 class="article-title text-muted p-0 m-0">MY TURN</h2>
+              </header>
+              <article class="mt-4 px-1 col-sm-12 col-md-4 col-lg-4 p-0">
+                <a href="#" class="article-link">
+                  <img
+                    src="images/brothers.PNG"
+                    alt="resistant protesters"
+                    class="article-image img-fluid img-responsive"
+                  />
+                </a>
+                <h5 class="w-100 text-muted mt-2">
+                  'We Lost Our Parents in the 2004 Tsunami'
+                </h5>
+              </article>
+              <article class="mt-4 px-1 col-sm-12 col-md-4 col-lg-4 p-0">
+                <a href="#" class="article-link">
+                  <img
+                    src="images/margan_markle.PNG"
+                    alt="resistant protesters"
+                    class="article-image"
+                  />
+                </a>
+                <h5 class="w-100 text-muted mt-2">
+                  'I Was Bullied About My Appearance, Now I'm A Meghan Markle
+                  Look-Alike'
+                </h5>
+              </article>
+              <article class="mt-4 px-1 col-sm-12 col-md-4 col-lg-4 p-0">
+                <a href="#" class="article-link">
+                  <img
+                    src="images/fighter.PNG"
+                    alt="resistant protesters"
+                    class="article-image img-fluid img-responsive"
+                  />
+                </a>
+                <h5 class="w-100 text-muted mt-2">
+                  'In Searching for Dead ISIS Fighters in Iraq, I Found Refuge
+                  in My Friends'
+                </h5>
+              </article>
+            </section>
+            <section class="my_turn row p-2 d-flex">
+              <header class="col-sm-12 col-md-12 col-lg-12 p-0 m-0">
+                <h2 class="article-title text-muted">
+                  CULTURE & TRAVEL
+                </h2>
+              </header>
+              <article class="mt-4 px-1 col-sm-12 col-md-4 col-lg-4 p-0">
+                <a href="#" class="article-link">
+                  <img
+                    src="images/black_lives_matter.PNG"
+                    alt="resistant protesters"
+                    class="article-image img-fluid img-responsive"
+                  />
+                </a>
+                <h5 class="w-100 text-muted mt-2">
+                  Black Lives Matter Protests Around the World, in Photos
+                </h5>
+              </article>
+              <article class="mt-4 px-1 col-sm-12 col-md-4 col-lg-4 p-0">
+                <a href="#" class="article-link">
+                  <img
+                    src="images/artists.PNG"
+                    alt="resistant protesters"
+                    class="article-image"
+                  />
+                </a>
+                <h5 class="w-100 text-muted mt-2">
+                  Artists on the Internet are Honoring George Floyd With
+                  Striking Portraits
+                </h5>
+              </article>
+              <article class="mt-4 px-1 col-sm-12 col-md-4 col-lg-4 p-0">
+                <a href="#" class="article-link">
+                  <img
+                    src="images/lady_on_a_tree.PNG"
+                    alt="resistant protesters"
+                    class="article-image img-fluid img-responsive"
+                  />
+                </a>
+                <h5 class="w-100 text-muted mt-2">
+                  Movies by Black Filmmakers Now Streaming Free on Criterion
+                  Channel
+                </h5>
+              </article>
+            </section>
+          </section>
+          <section class="my_turn row more-stories col-12 mt-3 px-4">
+            <header class="more-stories-header p-0 m-0">
+              <h2 class="text-muted">MORE STORIES</h2>
+            </header>
+            <div class="more-story-el row mt-2 border-top py-3 px-0">
+              <div class="col-3 p-0 m-0">
+                <img
+                  src="images/maurice_img.PNG"
+                  alt="maurice_img"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-9 pl-2 m-0">
+                <h3 class="more-story-title">
+                  <a href="#" class="anchor-style">
+                    Video Released Of Unarmed Black Man Killed During NJ Traffic
+                    Stop In May
+                  </a>
+                </h3>
+                <p class="more-story-text">
+                  Maurice Gordon was shot by police on May 23 after his car
+                  became disabled during a routine traffic stop on the Garden
+                  State Parkway in New Jersey.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3 px-0">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/corona.PNG"
+                  alt="maurice_img"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  <a href="#" class="anchor-style">
+                    WHO Walks Back Comments About 'Rare' Asymptomatic Spread of
+                    COVID-19
+                  </a>
+                </h3>
+                <p class="more-story-text">
+                  "Some people who are asymptomatic, or some people who don't
+                  have symptoms, can transmit the virus on," the World Health
+                  Organization's Dr. Maria Van Kerkhove said Tuesday.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3 px-0">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/infections.PNG"
+                  alt="maurice_img"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  <a href="" class="anchor-style">
+                    New Coronavirus Infections Hit 7-Day Average Highs in States
+                    Across U.S.
+                  </a>
+                </h3>
+                <p class="more-story-text">
+                  At least 14 states saw spikes in confirmed cases during the
+                  first week of June. While some health officials associate
+                  increasing case counts with reopening procedures, others
+                  attribute higher numbers to expanded diagnostic testing.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3 px-0">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/buffalo_police.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  <a href="#" class="anchor-style">
+                    Buffalo Police Dispatcher Suspended For Calling Protesters
+                    'Rabid Animals'
+                  </a>
+                </h3>
+                <p class="more-story-text">
+                  Buffalo Police Commissioner Byron Lockwood confirmed that the
+                  employee has been suspended and an investigation has been
+                  launched.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3 px-0">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/anti_abortion.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  <a href="#" class="anchor-style">
+                    Anti-Abortion Groups Say COVID-19 Vaccines May Use Cells
+                    From Human Fetuses
+                  </a>
+                </h3>
+                <p class="more-story-text">
+                  Organizations have written to the Trump and Trudeau
+                  administrations.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3 px-0">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/voters.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  <a href="#" class="anchor-style">
+                    Georgia Voters Report Machine Problems, Long Lines at Polls
+                    During Primary
+                  </a>
+                </h3>
+                <p class="more-story-text">
+                  "Voters are either extremely livid or voters are just leaving
+                  altogether—or both," state Representative Jasmine Clark told
+                  Newsweek.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3 px-0">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/korea.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  <a href="#" class="anchor-style">
+                    U.N. North Korea Expert Urges Security Council to Reconsider
+                    Sanctions
+                  </a>
+                </h3>
+                <p class="more-story-text">
+                  The special rapporteur also said there were reports of
+                  families in the country starving as some were eating just two
+                  meals a day.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/majority.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  <a href="#" class="anchor-style">
+                    Majority of Americans Oppose Cuts to Police Department
+                    Funding, Poll Shows
+                  </a>
+                </h3>
+                <p class="more-story-text">
+                  As the movement to defund the police grows, legislators on
+                  Capitol Hill are pushing back on the concept.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/prince.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  <a href="#" class="anchor-style">
+                    Prince Andrew Will be Forced to Testify on Jeffrey Epstein,
+                    Experts Say
+                  </a>
+                </h3>
+                <p class="more-story-text">
+                  Demands for The Duke of York's testimony on Jeffrey Epstein
+                  will be approved and he can only refuse to answer questions if
+                  it would incriminate him, legal experts tell Newsweek.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/funding_cuts.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  <a href="#" class="anchor-style">
+                    Police Forces Facing Funding Cuts in Wake of George Floyd's
+                    Death
+                  </a>
+                </h3>
+                <p class="more-story-text">
+                  Departments across the country have set out plans to
+                  redistribute money that would normally spent on police.
+                </p>
+              </div>
+            </div>
+            <div class="more-story-el row mt-2 border-top py-3">
+              <div class="col-2 p-0 m-0">
+                <img
+                  src="images/reforms.PNG"
+                  alt="story image"
+                  class="more-story-image img-responsive"
+                />
+              </div>
+              <div class="col-10 pl-2 m-0">
+                <h3 class="more-story-title">
+                  <a href="#" class="anchor-style">
+                    The Key Reforms in Democrats' Proposed Justice in Policing
+                    Act
+                  </a>
+                </h3>
+                <p class="more-story-text">
+                  Democrats have put forward a series of measures aimed at
+                  improving law enforcement practices and accountability for
+                  misconduct.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div
+          class="the_debate mt-2 col-sm-12 col-md-12 order-2 col-lg-4 order-sm-2 order-md-2"
+        >
+          <section class="row col-12">
+            <header class="section_header">
+              <h2 class="header_title text-muted">THE DEBATE</h2>
+            </header>
+            <div class="the_debate_item mt-4 pt-3 col-12 px-0">
+              <div>
+                <a href="#">
+                  <img src="images/governer.webp" alt="governer image" />
+                </a>
+              </div>
+              <div>
+                <h3>
+                  <a href="#" class="anchor-style">
+                    Governors Can't Pick and Choose Constitutional Rights <br />
+                    <span class="text-muted">BY</span> EUGENE KONTOROVICH
+                  </a>
+                </h3>
+              </div>
+            </div>
+            <div
+              class="double-div my-2 d-flex justify-content-center align-items-center col-12 p-0"
+            >
+              <p class="cr-vs">VS</p>
+            </div>
+            <div class="the_debate_item_two mt-0 pt-3 col-12 px-0 pb-2">
+              <div class="px-0">
+                <h3>
+                  <a href="#" class="anchor-style">
+                    Governors Can't Pick and Choose Constitutional Rights <br />
+                    <span class="text-muted">BY</span> EUGENE KONTOROVICH
+                  </a>
+                </h3>
+              </div>
+              <div class="px-0">
+                <a href="#">
+                  <img src="images/goodwin.webp" alt="governer image" />
+                </a>
+              </div>
+            </div>
+            <div class="opinion opinion_wrapper">
+              <h2 class="header_title text-muted mt-3 mb-0 p-0">OPINION</h2>
+              <div class="opinion_item col-12 px-0 py-2">
+                <div class="opinion-image">
+                  <a href="#">
+                    <img src="images/racism.webp" alt="governer image" />
+                  </a>
+                </div>
+                <div class="opininon-text">
+                  <h3>
+                    <a href="#" class="anchor-style">
+                      Economists' Silence on Racism Is 100 Years in the Making
+                      <br />
+                      <span class="text-muted"
+                        >BY DANIA FRANCIS AND ANNA GIFTY OPOKU-AGYEMAN
+                      </span>
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="opinion_item col-12 px-0 py-3 border-top">
+                <div>
+                  <a href="#">
+                    <img
+                      src="images/corrupt_regime.webp"
+                      alt="governer image"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <h3>
+                    <a href="#" class="anchor-style">
+                      The U.S. and Allies Must Unite Against China's Corrupt
+                      Regime <br />
+                      <span class="text-muted">BY CHEN GUANGCHENG </span>
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="opinion_item col-12 px-0 py-3 border-top">
+                <div>
+                  <a href="#">
+                    <img src="images/democrats.webp" alt="governer image" />
+                  </a>
+                </div>
+                <div>
+                  <h3>
+                    <a href="#" class="anchor-style">
+                      Democrats Reveal Their Partisan Hypocrisy on Biden and
+                      Kavanaugh <br />
+                      <span class="text-muted">BY MIKE DAVIS </span>
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="opinion_item col-12 px-0 py-3 border-top">
+                <div>
+                  <a href="#">
+                    <img src="images/armed_police.webp" alt="governer image" />
+                  </a>
+                </div>
+                <div>
+                  <h3>
+                    <a href="#" class="anchor-style">
+                      The Government Is Arming Police for War. Reform Can Start
+                      Right There <br />
+                      <span class="text-muted"
+                        >BY HANK JOHNSON AND MICHAEL SHANK</span
+                      >
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="opinion_item col-12 px-0 py-3 border-top">
+                <div>
+                  <a href="#">
+                    <img src="images/prosecute.webp" alt="governer image" />
+                  </a>
+                </div>
+                <div>
+                  <h3>
+                    <a href="#" class="anchor-style">
+                      I Prosecuted Police Killings. Defund the Police—But Be
+                      Strategic <br />
+                      <span class="text-muted">BY KRISTEN CLARKE</span>
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="opinion_item col-12 px-0 py-3 border-top">
+                <div>
+                  <a href="#">
+                    <img src="images/annexation.webp" alt="governer image" />
+                  </a>
+                </div>
+                <div>
+                  <h3>
+                    <a href="#" class="anchor-style">
+                      We Should Not Be Surprised by Israeli Annexation <br />
+                      <span class="text-muted">BY AARON DAVID MILLER</span>
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="more-on-opinions">
+                <div class="card opinion-card col-12 p-0 my-3">
+                  <img
+                    src="images/liberal.PNG"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="#" class="anchor-style">
+                        What Sets the Leading Liberal Arts Schools Apart?
+                      </a>
+                    </h4>
+                    <p class="card-text">
+                      There are a number of great Liberal Arts Schools in the
+                      USA today, but what qualities do the best of them have?
+                    </p>
+                  </div>
+                </div>
+                <div class="sign-up px-4">
+                  <form class="p-3">
+                    <div class="form-group">
+                      <p>
+                        <img
+                          src="images/small_icon.PNG"
+                          class="img-responsive mr-2 mt-2"
+                          alt="form logo"
+                        />
+                        <span class="form-title"
+                          >START YOUR DAY WITH OUR TOP 5 ARTICLES</span
+                        >
+                      </p>
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Email..."
+                      />
+                    </div>
+                    <button type="submit" class="btn btn-block">
+                      FREE SIGN UP <i class="fas fa-angle-right"></i>
+                    </button>
+                  </form>
+                </div>
+                <div class="card opinion-card col-12 p-0 my-3">
+                  <img
+                    src="images/leading_university.PNG"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="#" class="anchor-style">
+                        What Qualities Make a Leading University?
+                      </a>
+                    </h4>
+                    <p class="card-text">
+                      A Leading University has to have a track record of
+                      producing well qualified, gifted and employable
+                      candidates. Which schools earn the accolade?
+                    </p>
+                  </div>
+                </div>
+                <div class="card opinion-card col-12 p-0 my-3">
+                  <img
+                    src="images/special_edition.PNG"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="#" class="anchor-style">
+                        Newsweek Special Edition: Food as Medicine
+                      </a>
+                    </h4>
+                    <p class="card-text">
+                      Humans have been using natural remedies like spices and
+                      herbs to heal common ailments for centuries. Now food
+                      science is proving many of those traditions true and
+                      innovating new ways to heal our bodies from the inside
+                      out. Discover the power of plant-based nutrition with this
+                      Newsweek Special Edition and start your journey to a
+                      healthier you.
+                    </p>
+                  </div>
+                </div>
+                <div class="card opinion-card col-12 p-0 my-3">
+                  <img
+                    src="images/infection_prevention.PNG"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="#" class="anchor-style">
+                        Best Infection Prevention Products
+                      </a>
+                    </h4>
+                    <p class="card-text">
+                      During the coronavirus outbreak, health care is more
+                      important than ever. In Newsweek's first Best Health Care
+                      series, we highlight the best infection prevention
+                      products.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="the-magazine">
+        <section>
+          <header class="the-header text-muted text-center py-3">
+            <img
+              src="images/small_icon.PNG"
+              class="img-responsive mr-2"
+              alt="form logo"
+            />IN THE MAGAZINE
+          </header>
+          <div class="the-features border-top row p-2">
+            <div class="feature-column-one col-12 row">
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/hong_kong.PNG" alt="magazine image" />
+                <p class="more-on-feature m-0 p-1">
+                  <a href="#"
+                    >SEE ALL FEATURES <i class="fas fa-angle-right"></i
+                  ></a>
+                </p>
+              </div>
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/kong_protesters.PNG" alt="magazine image" />
+                <p class="py-0 my-0">
+                  <a class="cover btn btn-sm" href="#">COVER</a> WORLD
+                </p>
+                <h3 class="py-0 my-0">
+                  <a href="#" class="anchor-style">
+                    On Tiananmen Anniversary, Hong Kong Protesters Brace for
+                    Chinese Crackdown
+                  </a>
+                </h3>
+              </div>
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/garner_mom.PNG" alt="magazine image" />
+                <p class="py-0 my-0">
+                  <a class="cover btn btn-sm" href="#">PERISCOPE</a>
+                  OPINION
+                </p>
+                <h3 class="py-0 my-0">
+                  <a href="#" class="anchor-style">
+                    I'm Eric Garner's Mom. Four Cops Must Be Convicted in George
+                    Floyd's Death
+                  </a>
+                </h3>
+              </div>
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img
+                  src="images/black_owned_business.PNG"
+                  alt="magazine image"
+                />
+                <p class="py-0 my-0">
+                  <a class="cover btn btn-sm" href="#">PERISCOPE</a> MY TURN
+                </p>
+                <h3 class="py-0 my-0">
+                  <a href="#" class="anchor-style">
+                    'I've Had to Paint 'Black Owned Business' on My Bar During
+                    the Riots'
+                  </a>
+                </h3>
+              </div>
+            </div>
+            <div class="feature-column-two col-12 row mt-2">
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img
+                  src="images/blue_lives_matter_activist.PNG"
+                  alt="magazine image"
+                />
+                <p class="py-0 my-0">
+                  <a class="cover btn btn-sm" href="#">PERISCOPE</a>
+                  CULTURE
+                </p>
+                <h3 class="py-0 my-0">
+                  <a href="#" class="anchor-style">
+                    'I'm a Blue Lives Matter Activist, We've Defended Those Now
+                    Breaking Laws'
+                  </a>
+                </h3>
+              </div>
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/willie_mays.PNG" alt="magazine image" />
+                <p class="py-0 my-0">
+                  <a class="cover btn btn-sm" href="#">DOWNTIME</a> CULTURE
+                </p>
+                <h3 class="py-0 my-0">
+                  <a href="#" class="anchor-style">
+                    Willie Mays Explains why the All-Star Game Meant so Much to
+                    his Generation
+                  </a>
+                </h3>
+              </div>
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/big_head.PNG" alt="magazine image" />
+                <p class="py-0 my-0">
+                  <a class="cover btn btn-sm" href="#">DOWNTIME</a> CULTURE
+                </p>
+                <h3 class="py-0 my-0">
+                  <a href="#" class="anchor-style">
+                    Judd Apatow on Pete Davidson's 'Brave' Work in 'The King of
+                    Staten Island'
+                  </a>
+                </h3>
+              </div>
+              <div class="margazine-item col-sm-12 col-md-3 col-lg-3">
+                <img src="images/rocket_men.PNG" alt="magazine image" />
+                <h3 class="py-0 my-0">
+                  <a href="#" class="anchor-style">
+                    ROCKET MEN
+                  </a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="editor-pics">
+        <section>
+          <header class="the-header text-muted text-center py-3">
+            <img
+              src="images/small_icon.PNG"
+              class="img-responsive mr-2"
+              alt="form logo"
+            />EDITOR'S PICK
+          </header>
+          <div class="editor-pics-section row border-top pt-3">
+            <div class="editor-column-one row col-12">
+              <div class="editor-item col-sm-12 col-md-6 col-lg-3">
+                <img src="images/joe_bidden.PNG" alt="editor's pic img" />
+                <h3 class="editor-title">
+                  <a href="#" class="anchor-style">
+                    Joe Biden Wants to See Studies About Feasibility of Slavery
+                    Reparations
+                  </a>
+                </h3>
+                <p class="editor-text">
+                  "If, in fact, there are ways to get direct payments for
+                  reparations, I want to see it," Joe Biden said Thursday
+                </p>
+              </div>
+              <div class="editor-item col-sm-12 col-md-6 col-lg-3">
+                <img src="images/jefferson.PNG" alt="editor's pic image" />
+                <h3 class="editor-title">
+                  <a href="#" class="anchor-style">
+                    Photos, Videos Show Jefferson Davis Statue Torn Down in
+                    Richmond, Virginia
+                  </a>
+                </h3>
+                <p class="editor-text">
+                  Four statues forming part of a Confederate monument in
+                  Portsmouth, around 80 miles outside Richmond, were also pulled
+                  down.
+                </p>
+              </div>
+              <div class="editor-item col-sm-12 col-md-6 col-lg-3">
+                <img
+                  src="images/tech_and_sciense.PNG"
+                  alt="editor's pic image"
+                />
+                <h3 class="editor-title">
+                  <a href="#" class="anchor-style">
+                    Huawei MateBook X Pro Review: A Stunning Windows Laptop, One
+                    Major Flaw
+                  </a>
+                </h3>
+                <p class="editor-text">
+                  The latest flagship Windows 10 laptop from technology giant
+                  Huawei is out now—here's what Newsweek thought of the new 2020
+                  model.
+                </p>
+              </div>
+              <div class="editor-item col-sm-12 col-md-6 col-lg-3">
+                <img
+                  src="images/tech_and_sciense.PNG"
+                  alt="editor's pic image"
+                />
+                <h3 class="editor-title">
+                  <a href="#" class="anchor-style">
+                    MLK's Daughter Calls NASCAR 'Family' After it Bans
+                    Confederate Flag
+                  </a>
+                </h3>
+                <p class="editor-text">
+                  Bernice King is the youngest child of the late Martin Luther
+                  King Jr. and Coretta Scott King. She simply called NASCAR
+                  "family" on Wednesday.
+                </p>
+              </div>
+            </div>
+            <div class="editor-column-two row col-12 mt-2">
+              <div class="editor-item col-sm-12 col-md-6 col-lg-3">
+                <img src="images/corona_vaccine.PNG" alt="editor's pic image" />
+                <h3 class="editor-title">
+                  <a href="#" class="anchor-style">
+                    Third of Americans Say They Won't Get a COVID-19 Vaccine
+                  </a>
+                </h3>
+                <p class="editor-text">
+                  Over 100 potential COVID-19 vaccines are currently under
+                  development.
+                </p>
+              </div>
+              <div class="editor-item col-sm-12 col-md-6 col-lg-3">
+                <img src="images/freedom_threat.PNG" alt="editor's pic image" />
+                <h3 class="editor-title">
+                  <a href="#" class="anchor-style">
+                    Exclusive Poll Shows Most in Hong Kong Say Freedoms
+                    Threatened
+                  </a>
+                </h3>
+                <p class="editor-text">
+                  While 60 percent in Hong Kong believe their level of freedom
+                  is under threat, only 43 percent would join protests against
+                  rising Chinese Communist Party influence and just 28 percent
+                  would risk their life.
+                </p>
+              </div>
+              <div class="editor-item col-sm-12 col-md-6 col-lg-3">
+                <img
+                  src="images/health_insurance.PNG"
+                  alt="editor's pic image"
+                />
+                <h3 class="editor-title">
+                  <a href="#" class="anchor-style">
+                    18 Million Lack Enough Health Insurance, More At Risk to
+                    Coronavirus, Study
+                  </a>
+                </h3>
+                <p class="editor-text">
+                  Minorities and low-income individuals are disproportionately
+                  uninsured or underinsured, while simultaneously being
+                  significantly more at risk of developing severe cases of
+                  COVID-19.
+                </p>
+              </div>
+              <div class="editor-item col-sm-12 col-md-6 col-lg-3">
+                <img src="images/racist_statues.PNG" alt="editor's pic image" />
+                <h3 class="editor-title">
+                  <a href="#" class="anchor-style">
+                    Nancy Pelosi Wants 'Racist' Confederate Statues Removed From
+                    U.S. Capitol
+                  </a>
+                </h3>
+                <p class="editor-text">
+                  "Monuments to men who advocated cruelty and barbarism to
+                  achieve such a plainly racist end are a grotesque affront to
+                  those ideals," House Speaker Nancy Pelosi wrote Wednesday.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="more-article-news row border-top py-3">
+        <h2 class="more-news-section-title col-12">U.S</h2>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img
+            src="images/florida_swatt.PNG"
+            alt="more article news image"
+            class="more-news-image img-responsive img-fluid"
+          />
+          <h3 class="more-article-news-title mt-2">
+            <a href="#">
+              Entire Florida City SWAT Team Resigns After Chief Kneels With
+              Protesters
+            </a>
+          </h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img
+            src="images/confederate_monument.PNG"
+            alt="more article news image"
+            class="more-news-image img-responsive img-fluid"
+          />
+          <h3 class="more-article-news-title mt-2">
+            <a href="#">
+              Judge Orders Georgia's 'Lost Cause' Confederate Monument to Be
+              Removed
+            </a>
+          </h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="more-news-article row">
+            <div class="col-4">
+              <img
+                src="images/tennesse_deputy.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Tennessee Deputy Fired Over Anti-Gay Posts, Defending
+                  Confederate Flag
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="more-news-article row mt-3 pt-2 border-top px-0 mx-0">
+            <div class="col-4 pl-0">
+              <img
+                src="images/hate_group.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Hate Group Sues D.C. Mayor for Mural Supporting 'Black Lives
+                  Matter Cult'
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="more-news-article row mt-3 pt-2 px-0 mx-0 border-top">
+            <div class="col-4 pl-0">
+              <img
+                src="images/twitter_identity.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Devin Nunes' Attorney Says He Cannot Find Out the Identity of
+                  Twitter Cow
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-article-news row border-top py-3">
+        <h2 class="more-news-section-title col-12">World</h2>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img
+            src="images/destributing_defectors.PNG"
+            alt="more article news image"
+            class="more-news-image img-responsive img-fluid"
+          />
+          <h3 class="more-article-news-title mt-2">
+            <a href="#">
+              Kim Jong Un's Sister Blasts Bible-Distributing Defectors as
+              'Mongrel Dogs'
+            </a>
+          </h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img
+            src="images/border_conflict.PNG"
+            alt="more article news image"
+            class="more-news-image img-responsive img-fluid"
+          />
+          <h3 class="more-article-news-title mt-2">
+            <a href="#">
+              Six Border Conflicts That Have the World's Attention
+            </a>
+          </h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="more-news-article row">
+            <div class="col-4">
+              <img
+                src="images/swedden_reports.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Sweden Reports Record High Single-Day Increase in Coronavirus
+                  Cases
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="more-news-article row mt-3 pt-2 border-top px-0 mx-0">
+            <div class="col-4 pl-0">
+              <img
+                src="images/faulty_towers.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  'Fawlty Towers' Episode Removed From Streaming Site Due to
+                  'Racial Slurs'
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="more-news-article row mt-3 pt-2 px-0 mx-0 border-top">
+            <div class="col-4 pl-0">
+              <img
+                src="images/account_sensorship.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  China Calls on Twitter to Remove Anti-Beijing Accounts Amid
+                  Censorship Spat
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-article-news row border-top py-3">
+        <h2 class="more-news-section-title col-12">Business</h2>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img
+            src="images/big_tech.PNG"
+            alt="more article news image"
+            class="more-news-image img-responsive img-fluid"
+          />
+          <h3 class="more-article-news-title mt-2">
+            <a href="#">
+              Don Jr. Set His Sights on Big Tech Months Before His Father's
+              Twitter Feud
+            </a>
+          </h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img
+            src="images/attention_congress.PNG"
+            alt="more article news image"
+            class="more-news-image img-responsive img-fluid"
+          />
+          <h3 class="more-article-news-title mt-2">
+            <a href="#">
+              Attention Congress: Why Federal Economic Benefits Are Needed Now
+              More Than Ever |Opinion
+            </a>
+          </h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="more-news-article row">
+            <div class="col-4">
+              <img
+                src="images/market_gains.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Trump's Stock Market Gains Once Again Surpass Those of Obama
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="more-news-article row mt-3 pt-2 border-top px-0 mx-0">
+            <div class="col-4 pl-0">
+              <img
+                src="images/biden_remark.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Trump Store Rolls Out 'You Ain't Black' T-shirts Referencing
+                  Biden Remark
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="more-news-article row mt-3 pt-2 px-0 mx-0 border-top">
+            <div class="col-4 pl-0">
+              <img
+                src="images/trump_organisation.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Trump Organization Lays off 250 Resort Employees Due to
+                  Pandemic
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-article-news row border-top py-3">
+        <h2 class="more-news-section-title col-12">Tech & Science</h2>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img
+            src="images/inside_earth.PNG"
+            alt="more article news image"
+            class="more-news-image img-responsive img-fluid"
+          />
+          <h3 class="more-article-news-title mt-2">
+            <a href="#">
+              Giant, Previously Unknown Structure Discovered Deep Inside Earth
+            </a>
+          </h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img
+            src="images/controversial_decisions.PNG"
+            alt="more article news image"
+            class="more-news-image img-responsive img-fluid"
+          />
+          <h3 class="more-article-news-title mt-2">
+            <a href="#">
+              EPA Has Been Making Controversial Decisions on Air Quality During
+              Pandemic
+            </a>
+          </h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="more-news-article row">
+            <div class="col-4">
+              <img
+                src="images/methane_feeding.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Ancient Fault System Feeding Methane to Enormous Craters on
+                  Seafloor Found
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="more-news-article row mt-3 pt-2 border-top px-0 mx-0">
+            <div class="col-4 pl-0">
+              <img
+                src="images/great_white_shark.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Great White Attack Recalled by Teen Who Came 'Face to Face'
+                  With Shark
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="more-news-article row mt-3 pt-2 px-0 mx-0 border-top">
+            <div class="col-4 pl-0">
+              <img
+                src="images/fifth_state.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Fifth State of Matter Created on International Space Station
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-article-news row border-top py-3">
+        <h2 class="more-news-section-title col-12">Culture</h2>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img
+            src="images/alexa_and_kate.PNG"
+            alt="more article news image"
+            class="more-news-image img-responsive img-fluid"
+          />
+          <h3 class="more-article-news-title mt-2">
+            <a href="#">
+              'Alexa and Kate' is Ending After Season 3's Final Episodes on
+              Netflix
+            </a>
+          </h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img
+            src="images/reasons_why.PNG"
+            alt="more article news image"
+            class="more-news-image img-responsive img-fluid"
+          />
+          <h3 class="more-article-news-title mt-2">
+            <a href="#">
+              '13 Reasons Why' Leads Netflix's Top 10: What to Watch This
+              Weekend
+            </a>
+          </h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="more-news-article row">
+            <div class="col-4">
+              <img
+                src="images/comedian.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Comedian Brent Terhune on His Satirical Rants About NASCAR
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="more-news-article row mt-3 pt-2 border-top px-0 mx-0">
+            <div class="col-4 pl-0">
+              <img
+                src="images/chappelle.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Critics React to Dave Chappelle's New Special
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="more-news-article row mt-3 pt-2 px-0 mx-0 border-top">
+            <div class="col-4 pl-0">
+              <img
+                src="images/exhausted_parent.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  This Exhausted Parent Snapped at a Barista for Waking Up Her
+                  Child
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-article-news row border-top py-3">
+        <h2 class="more-news-section-title col-12">Sports</h2>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img
+            src="images/smackdown.PNG"
+            alt="more article news image"
+            class="more-news-image img-responsive img-fluid"
+          />
+          <h3 class="more-article-news-title mt-2">
+            <a href="#">
+              'Friday Night SmackDown' Results (6/12): Bryan & Styles to Battle
+              Tonight
+            </a>
+          </h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img
+            src="images/kaerpernick.PNG"
+            alt="more article news image"
+            class="more-news-image img-responsive img-fluid"
+          />
+          <h3 class="more-article-news-title mt-2">
+            <a href="#">
+              Signing Colin Kaepernick is Easier Said Than Done For NFL Teams
+            </a>
+          </h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="more-news-article row">
+            <div class="col-4">
+              <img
+                src="images/drew_heyman.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Q&A: Drew McIntyre Talks Backlash, Paul Heyman and More
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="more-news-article row mt-3 pt-2 border-top px-0 mx-0">
+            <div class="col-4 pl-0">
+              <img
+                src="images/undertaker.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  'Undertaker: The Last Ride' Chapter 4 Review
+                </a>
+              </h3>
+            </div>
+          </div>
+          <div class="more-news-article row mt-3 pt-2 px-0 mx-0 border-top">
+            <div class="col-4 pl-0">
+              <img
+                src="images/james_dolan.PNG"
+                alt="more-news-article image"
+                class="more-news-image img-responsive img-fluid"
+              />
+            </div>
+            <div class="col-8">
+              <h3 class="more-article-news-title">
+                <a href="#">
+                  Spike Lee Compares Knicks Owner James Dolan to Donald Trump
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subscribe_newsletter row border-top pt-3">
+        <div
+          class="subscribe_to_newsletter col-sm-12 col-md-12 col-lg-7 py-3 pl-4 row"
+        >
+          <div class="subscribe-newsletter-title col-12 px-0">
+            Subscribe
+          </div>
+          <div class="row px-3 py-5 mx-1 get-bg">
+            <div class="col-sm-12 col-md-4 col-lg-4 px-0 subscribe-image-div">
+              <img src="images/subscribe_newsweek.jpg" alt="subscribe image" />
+              <img
+                src="images/subscribe_newsweek_two.jpg"
+                alt="subscribe image"
+                class="abs-image"
+              />
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 p-1">
+              <h3 class="subscribe-title">
+                In-depth Stories You Don't See Elsewhere About Topics You Want
+                to Read!
+              </h3>
+              <p class="subscribe-text">
+                All Access + Weekly Delivery. <br />
+                Choose A Membership That's Perfect for You!
+              </p>
+              <button class="btn btn-sm">
+                SUBSCRIBE <i class="fas fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="newsletter col-sm-12 col-md-12 col-lg-5 row py-3 px-0 mx-0">
+          <div class="newsletter-title col-12 px-0">
+            Newsletter
+          </div>
+          <div class="row ml-1 mx-0 border">
+            <div class="col-md-4 col-lg-6 bg-image p-0 m-0">
+              <img
+                src="images/cut_image.PNG"
+                class="img-fluid img-responsive"
+                alt="newsletter image"
+              />
+            </div>
+            <div class="col-sm-12 my-border col-md-8 col-lg-6 px-4 py-5 m-0">
+              <h3>The Starting 5</h3>
+              <p class="newsletter-text">
+                See why nearly a quarter of a million subscribers begin their
+                day with the Starting 5.
+              </p>
+              <form>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Email Address"
+                  />
+                </div>
+                <button class="btn btn-sm btn-block py-2">
+                  FREE SIGN UP <i class="fas fa-angle-right"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="border-top py-3">
+        <div class="top-footer row border-bottom">
+          <div
+            class="left-top-footer-items col-sm-12 col-md-12 col-lg-6 d-flex"
+          >
+            <p class="footer-text">
+              <img src="images/footer_logo.PNG" alt="footer logo image" />
+            </p>
+            <p class="copywright text-muted">&copy; 2020 NEWSWEEK</p>
+          </div>
+          <div
+            class="right-top-footer-items col-sm-12 col-md-12 col-lg-6 pt-3 d-flex justify-content-end"
+          >
+            <span
+              ><a href="#" class="social-icon px-2 text-muted"
+                ><i class="fab fa-facebook-square"></i></a
+            ></span>
+            <span
+              ><a href="#" class="social-icon px-2 text-muted"
+                ><i class="fab fa-twitter"></i></a
+            ></span>
+            <span
+              ><a href="#" class="social-icon px-2 text-muted"
+                ><i class="fab fa-instagram"></i></a
+            ></span>
+            <span
+              ><a href="#" class="social-icon px-2 text-muted"
+                ><i class="fab fa-tumblr"></i></a
+            ></span>
+            <span
+              ><a href="#" class="social-icon px-2 text-muted"
+                ><i class="fab fa-linkedin-in"></i></a
+            ></span>
+          </div>
+        </div>
+        <div class="bottom-footer py-2">
+          <div class="top">
+            <span class="list-title text-muted">Edition:</span>
+            <span
+              ><a class="footer-link text-muted" href="#">U.S Edition</a></span
+            >
+            <span><a class="footer-link text-muted" href="#">日本</a></span>
+            <span><a class="footer-link text-muted" href="#">Pakistan</a></span>
+            <span><a class="footer-link text-muted" href="#">Polska</a></span>
+            <span><a class="footer-link text-muted" href="#">Romania</a></span>
+          </div>
+          <div class="bottom pl-0 py-1">
+            <span
+              ><a href="#" class="footer-link text-muted pl-0"
+                >About Us</a
+              ></span
+            >
+            <span
+              ><a href="#" class="footer-link text-muted">Corrections</a></span
+            >
+            <span
+              ><a href="#" class="footer-link text-muted">Contact Us</a></span
+            >
+            <span
+              ><a href="#" class="footer-link text-muted"
+                >Editional GuidLines</a
+              ></span
+            >
+            <span
+              ><a href="#" class="footer-link text-muted">Advertise</a></span
+            >
+            <span
+              ><a href="#" class="footer-link text-muted">Copywright</a></span
+            >
+            <span
+              ><a href="#" class="footer-link text-muted"
+                >Terms & Conditions</a
+              ></span
+            >
+            <span
+              ><a href="#" class="footer-link text-muted"
+                >Privacy Policy</a
+              ></span
+            >
+            <span
+              ><a href="#" class="footer-link text-muted"
+                >Cookie Policy</a
+              ></span
+            >
+            <span
+              ><a href="#" class="footer-link text-muted"
+                >Terms of Sale</a
+              ></span
+            >
+            <span><a href="#" class="footer-link text-muted">Archive</a></span>
+            <span
+              ><a href="#" class="footer-link text-muted"
+                >Announcements</a
+              ></span
+            >
+            <span
+              ><a href="#" class="footer-link text-muted"
+                >Consert Preferences</a
+              ></span
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

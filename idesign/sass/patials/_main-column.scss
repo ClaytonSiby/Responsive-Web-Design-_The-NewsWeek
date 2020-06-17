@@ -1,0 +1,394 @@
+%title {
+  font-size: 1rem !important;
+}
+
+.main-wrapper {
+  background-color: $light;
+}
+
+.header_title {
+  @extend %title;
+}
+
+article {
+  position: relative;
+  width: 50%;
+
+  .article {
+    &-image {
+      width: 100% !important;
+    }
+
+    &-title {
+      font-family: $art-font;
+      font-size: 1.5rem !important;
+      font-weight: 700;
+    }
+
+    &-description {
+      font-size: $global-font;
+    }
+  }
+
+  h5 {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
+
+.featured-card {
+  @media screen and (max-width: 991px) {
+    max-width: 400px !important;
+    margin: 1rem auto !important;
+  }
+}
+
+.opinion-card {
+  @media screen and (max-width: 991px) {
+    max-width: 400px !important;
+    margin: 1rem auto !important;
+  }
+}
+
+.card {
+  &-title {
+    font-family: $condensed;
+  }
+
+  &-text {
+    font-size: $global-font;
+  }
+}
+
+.my_turn {
+  h2 {
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 767px) {
+    display: none !important;
+  }
+}
+
+.more-stories {
+  .more-story-el {
+    .more-story-image {
+      width: 100% !important;
+    }
+
+    .more-story-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    .more-story-text {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.sign-up {
+  form {
+    background: $body-bg;
+  }
+
+  img {
+    float: left;
+  }
+
+  .form-title {
+    font-family: $condensed;
+    font-size: $bigger-text;
+  }
+
+  button {
+    background: $primary-bg;
+    color: $light;
+  }
+
+  @media screen and (max-width: 991px) {
+    max-width: 400px !important;
+    margin: auto !important;
+  }
+}
+
+.the_debate_item {
+  border-top: 0.2rem solid $primary-bg;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 0.5rem;
+
+  a img {
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-family: $condensed;
+
+    span {
+      font-size: 1rem;
+      font-weight: 100;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-gap: 20px;
+  }
+}
+
+.the_debate_item_two {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 0.5rem;
+  border-bottom: 0.2rem solid $primary-color;
+
+  a img {
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-family: $condensed;
+
+    span {
+      font-size: 1rem;
+      font-weight: 100;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-gap: 0;
+  }
+}
+
+.double-div {
+  position: relative;
+  flex-direction: column !important;
+
+  .cr-vs {
+    width: 32px;
+    height: 32px;
+    background: $dark;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $light;
+  }
+}
+
+.opinion_item {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 0.5rem;
+
+  a img {
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-family: $condensed;
+
+    span {
+      font-size: 1rem;
+      font-weight: 100;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-gap: 20px;
+  }
+}
+
+.editor-pics-section {
+  .editor-item {
+    img {
+      width: 100% !important;
+    }
+
+    h3 {
+      font-family: $condensed;
+      font-size: 1.1rem;
+    }
+
+    p {
+      font-size: $global-font;
+    }
+  }
+}
+
+.more-article-news {
+  .more-news-section-title {
+    color: $primary-bg;
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+
+  .more-news-image {
+    width: 100% !important;
+  }
+
+  .more-article-news-title {
+    font-family: $condensed;
+    font-size: 1.1rem;
+
+    a {
+      color: $dark;
+
+      &:hover {
+        color: $primary-bg;
+      }
+    }
+  }
+}
+
+.the-magazine {
+  .the-features {
+    .margazine-item {
+      img {
+        width: 100% !important;
+      }
+
+      .cover {
+        background: $primary-bg;
+        color: $light;
+      }
+
+      .more-on-feature {
+        background: $body-bg;
+        text-align: center;
+
+        a {
+          color: $dark;
+          text-decoration: none;
+        }
+      }
+
+      h3 {
+        font-family: $condensed;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+.subscribe_newsletter {
+  .subscribe_to_newsletter {
+    .get-bg {
+      background: $body-bg;
+    }
+
+    .subscribe-image-div {
+      position: relative;
+
+      .abs-image {
+        position: absolute;
+        left: 3.8rem;
+        top: 1.5rem;
+      }
+    }
+
+    .subscribe-title {
+      font-size: 1.4rem;
+      font-family: $condensed;
+    }
+
+    .subscribe-text {
+      font-size: $global-font;
+    }
+
+    button {
+      color: $light;
+      background: $primary-bg;
+    }
+  }
+
+  .subscribe-newsletter-title,
+  .newsletter-title {
+    font-size: 1.4rem;
+    color: $primary-bg;
+    font-weight: 600;
+  }
+
+  .newsletter {
+    .bg-image {
+      img {
+        width: 100% !important;
+        height: 100% !important;
+      }
+
+      @media screen and (max-width: 767px) {
+        display: none !important;
+      }
+    }
+
+    .my-border {
+      h3 {
+        font-size: 1.1rem;
+        font-family: $condensed;
+      }
+
+      button {
+        background: $primary-bg;
+        color: $light;
+      }
+    }
+  }
+}
+
+footer {
+  .top-footer {
+    .left-top-footer-items {
+      .copywright {
+        padding-top: 1.3rem;
+        font-size: $global-font;
+
+        @media screen and (max-width: 991px) {
+          padding: 0;
+        }
+      }
+
+      @media screen and (max-width: 991px) {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .right-top-footer-items {
+      .social-icon {
+        font-size: 1.4rem;
+      }
+
+      @media screen and (max-width: 991px) {
+        display: flex;
+        justify-content: flex-start !important;
+        padding: 0 0 0.7rem 0.4rem !important;
+      }
+    }
+  }
+
+  .bottom-footer {
+    .top {
+      .list-title {
+        font-size: 1rem;
+        font-weight: 600 !important;
+      }
+    }
+
+    .footer-link {
+      text-decoration: none;
+      padding: 0 0.7rem 0 0.5rem;
+      border-right: 1px solid gray;
+      font-size: $global-font;
+    }
+  }
+}

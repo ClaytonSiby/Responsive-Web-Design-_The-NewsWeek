@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 1rem;
+  background: $body-bg;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+}
+
+.anchor-style {
+  color: $dark;
+
+  &:hover {
+    color: $primary-bg;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-fluid {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+  }
+}
