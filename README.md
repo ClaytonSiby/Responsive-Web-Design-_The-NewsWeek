@@ -23,7 +23,7 @@ Please take note, this project has no functionality to it. It was designed as a 
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ClaytonSiby/Responsive-Web-Design-_The-NewsWeek/NewsWeek-Homepage/idesign/index.html)
+[Live Demo Link](https://raw.githack.com/ClaytonSiby/Responsive-Web-Design-_The-NewsWeek/master/idesign/index.html)
 
 ## Author
 
