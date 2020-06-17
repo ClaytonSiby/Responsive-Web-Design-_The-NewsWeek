@@ -15,7 +15,7 @@ Please take note, this project has no functionality to it. It was designed as a 
 
 - CSS, HTML, JavaScript
 - Sass, Bootstrap 4
-- Stylelint validators
+- Stylelint validator
 
 ## Tools Used:
 

@@ -175,7 +175,6 @@ article {
 
   h3 {
     font-size: 1.1rem;
-
     font-family: $condensed;
 
     span {
@@ -306,6 +305,7 @@ article {
       background-image: url(/idesign/images/cut_image.PNG);
       background-size: cover;
       background-repeat: no-repeat;
+      background-position: center;
     }
 
     .my-border {
@@ -320,15 +320,6 @@ article {
       }
     }
 
-    @media screen and (max-width: 767px) {
-      .newsletter-image {
-        display: none;
-      }
-
-      .my-border {
-        border-left: 1px solid $body-bg;
-      }
-    }
   }
 }
 
