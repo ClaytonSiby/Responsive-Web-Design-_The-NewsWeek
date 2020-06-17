@@ -264,6 +264,10 @@ article {
 
 .subscribe_newsletter {
   .subscribe_to_newsletter {
+    .get-bg {
+      background: $body-bg;
+    }
+
     .subscribe-image-div {
       position: relative;
 
@@ -289,19 +293,18 @@ article {
     }
   }
 
-  .section-header {
-    .subscribe-newsletter-title,
-    .newsletter-title {
-      font-size: 1.4rem;
-      color: $primary-bg;
-      font-weight: 600;
-    }
+  .subscribe-newsletter-title,
+  .newsletter-title {
+    font-size: 1.4rem;
+    color: $primary-bg;
+    font-weight: 600;
   }
 
   .newsletter {
-    .newsletter-image {
-      width: 100% !important;
-      height: 100% !important;
+    .bg-image {
+      background-image: url(/idesign/images/cut_image.PNG);
+      background-size: cover;
+      background-repeat: no-repeat;
     }
 
     .my-border {
@@ -334,6 +337,10 @@ footer {
       .copywright {
         padding-top: 1.3rem;
         font-size: $global-font;
+
+        @media screen {
+          padding: 0;
+        }
       }
 
       @media screen and (max-width: 991px) {
@@ -344,13 +351,13 @@ footer {
 
     .right-top-footer-items {
       .social-icon {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
       }
 
       @media screen and (max-width: 991px) {
         display: flex;
         justify-content: flex-start !important;
-        padding-bottom: 0.7rem;
+        padding: 0 0 0.7rem 0.4rem !important;
       }
     }
   }

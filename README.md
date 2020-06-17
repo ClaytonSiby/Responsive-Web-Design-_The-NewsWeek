@@ -14,7 +14,7 @@ Please take note, this project has no functionality to it. It was designed as a 
 ## Built With
 
 - CSS, HTML, JavaScript
-- Sass CSS, Bootstrap 4
+- Sass, Bootstrap 4
 - Stylelint validators
 
 ## Tools Used:
@@ -32,6 +32,7 @@ Please take note, this project has no functionality to it. It was designed as a 
 - Github: [@Clayton Siby](https://github.com/ClaytonSiby)
 - Twitter: [@ClaytonSiby](https://twitter.com/ClaytonSiby)
 - Linkedin: [linkedin](https://www.linkedin.com/in/clayton-siby-48a8a0183/)
+- claytonsiby@gmail.com
 
 
 # 🤝 Contributing
