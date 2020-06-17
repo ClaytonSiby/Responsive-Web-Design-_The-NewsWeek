@@ -3,7 +3,7 @@ This project is a replica of the [NewsWeek](https://www.newsweek.com/) website. 
 
 ## Project Design:
 
-* large/desktop screen view*
+* large/desktop screen view
 
 ![screenshot](idesign/images/original_screenshot.PNG) 
 
