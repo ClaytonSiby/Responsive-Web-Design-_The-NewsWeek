@@ -41,7 +41,7 @@ Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/ClaytonSiby/Responsive-Web-Design-_The-NewsWeek/issues).
 
-## Show your support
+## Please show your support
 
 Give a ⭐️ if you like this project!
 
