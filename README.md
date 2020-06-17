@@ -1,5 +1,5 @@
 # Responsive-Web-Design-_The-NewsWeek
-**This project is a replica of the [NewsWeek](https://www.newsweek.com/) website. It is a part of the microverse curriculum mainly focusing on mobile first responsive design.**
+This project is a replica of the [NewsWeek](https://www.newsweek.com/) website. It is a part of the microverse curriculum mainly focusing on mobile first responsive design.
 
 ## Project Design:
 

@@ -36,9 +36,7 @@ article {
   }
 }
 
-
 .featured-card {
-
   @media screen and (max-width: 991px) {
     max-width: 400px !important;
     margin: 1rem auto !important;
@@ -46,13 +44,11 @@ article {
 }
 
 .opinion-card {
-
   @media screen and (max-width: 991px) {
     max-width: 400px !important;
     margin: 1rem auto !important;
   }
 }
-
 
 .card {
   &-title {
@@ -91,7 +87,6 @@ article {
     }
   }
 }
-
 
 .sign-up {
   form {
