@@ -304,6 +304,11 @@ article {
     .bg-image {
       img {
         width: 100% !important;
+        height: 100% !important;
+      }
+
+      @media screen and (max-width: 767px) {
+          display: none !important;
       }
     }
 
