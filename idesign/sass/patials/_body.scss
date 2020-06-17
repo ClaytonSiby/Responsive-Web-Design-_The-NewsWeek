@@ -23,3 +23,10 @@ hr {
     text-decoration: none;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .container-fluid {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+  }
+}

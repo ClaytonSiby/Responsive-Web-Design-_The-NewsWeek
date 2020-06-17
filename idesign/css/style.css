@@ -26,6 +26,13 @@ hr {
   text-decoration: none;
 }
 
+@media screen and (min-width: 1024px) {
+  .container-fluid {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+  }
+}
+
 .big_nav {
   display: none !important;
   background-color: #f72210;
@@ -59,7 +66,7 @@ hr {
 
 @media screen and (min-width: 1210px) {
   .navbar-light .navbar-nav .nav-item .nav-link {
-    padding: 0 1.3rem;
+    padding: 0 1rem;
   }
 }
 
