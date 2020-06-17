@@ -302,10 +302,9 @@ article {
 
   .newsletter {
     .bg-image {
-      background-image: url(/idesign/images/cut_image.PNG);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
+      img {
+        width: 100% !important;
+      }
     }
 
     .my-border {
