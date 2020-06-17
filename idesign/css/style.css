@@ -143,6 +143,20 @@ article h5 {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 991px) {
+  .featured-card {
+    max-width: 400px !important;
+    margin: 1rem auto !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .opinion-card {
+    max-width: 400px !important;
+    margin: 1rem auto !important;
+  }
+}
+
 .card-title {
   font-family: "Open Sans Condensed", sans-serif;
 }
@@ -191,6 +205,13 @@ article h5 {
 .sign-up button {
   background: #f72210;
   color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  .sign-up {
+    max-width: 400px !important;
+    margin: auto !important;
+  }
 }
 
 .the_debate_item {
